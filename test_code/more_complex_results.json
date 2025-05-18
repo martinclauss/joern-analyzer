@@ -1,0 +1,1221 @@
+{
+    "call_graph": [
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 5,
+            "method": "calculator_create",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 5,
+            "method": "calculator_create",
+            "name": "<operator>.cast"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 5,
+            "method": "calculator_create",
+            "name": "malloc"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 5,
+            "method": "calculator_create",
+            "name": "<operator>.sizeOf"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 7,
+            "method": "calculator_create",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 7,
+            "method": "calculator_create",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 8,
+            "method": "calculator_create",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 8,
+            "method": "calculator_create",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 15,
+            "method": "calculator_destroy",
+            "name": "free"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 20,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 21,
+            "method": "calculator_perform_operation",
+            "name": "log_error"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 25,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 28,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 28,
+            "method": "calculator_perform_operation",
+            "name": "add"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 31,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 31,
+            "method": "calculator_perform_operation",
+            "name": "subtract"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 34,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 34,
+            "method": "calculator_perform_operation",
+            "name": "multiply"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 37,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.notEquals"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 38,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 38,
+            "method": "calculator_perform_operation",
+            "name": "divide"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 40,
+            "method": "calculator_perform_operation",
+            "name": "log_error"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 46,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 46,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 47,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.postIncrement"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 47,
+            "method": "calculator_perform_operation",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 48,
+            "method": "calculator_perform_operation",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 54,
+            "method": "calculator_log_stats",
+            "name": "log_message"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 55,
+            "method": "calculator_log_stats",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 55,
+            "method": "calculator_log_stats",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 56,
+            "method": "calculator_log_stats",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 56,
+            "method": "calculator_log_stats",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 6,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 6,
+            "method": "main",
+            "name": "calculator_create"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 7,
+            "method": "main",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 8,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 16,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 16,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 17,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 20,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 20,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 21,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 24,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 24,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 25,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 28,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 28,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 29,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 32,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 32,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 33,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 36,
+            "method": "main",
+            "name": "calculator_log_stats"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 39,
+            "method": "main",
+            "name": "calculator_destroy"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 5,
+            "method": "add",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 5,
+            "method": "add",
+            "name": "<operator>.addition"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 6,
+            "method": "add",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 11,
+            "method": "subtract",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 11,
+            "method": "subtract",
+            "name": "<operator>.subtraction"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 12,
+            "method": "subtract",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 17,
+            "method": "multiply",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 17,
+            "method": "multiply",
+            "name": "<operator>.multiplication"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 18,
+            "method": "multiply",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 23,
+            "method": "divide",
+            "name": "<operator>.equals"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 24,
+            "method": "divide",
+            "name": "log_error"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 27,
+            "method": "divide",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 27,
+            "method": "divide",
+            "name": "<operator>.division"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 28,
+            "method": "divide",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 7,
+            "method": "log_message",
+            "name": "time"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 7,
+            "method": "log_message",
+            "name": "<operator>.addressOf"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 8,
+            "method": "log_message",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 8,
+            "method": "log_message",
+            "name": "ctime"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 8,
+            "method": "log_message",
+            "name": "<operator>.addressOf"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 9,
+            "method": "log_message",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 9,
+            "method": "log_message",
+            "name": "<operator>.indirectIndexAccess"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 9,
+            "method": "log_message",
+            "name": "<operator>.subtraction"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 9,
+            "method": "log_message",
+            "name": "strlen"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 14,
+            "method": "log_message",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 17,
+            "method": "log_message",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 20,
+            "method": "log_message",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 23,
+            "method": "log_message",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 26,
+            "method": "log_message",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 30,
+            "method": "log_operation",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 30,
+            "method": "log_operation",
+            "name": "<operator>.alloc"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 31,
+            "method": "log_operation",
+            "name": "snprintf"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 31,
+            "method": "log_operation",
+            "name": "<operator>.sizeOf"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 32,
+            "method": "log_operation",
+            "name": "log_message"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 36,
+            "method": "log_error",
+            "name": "log_message"
+        }
+    ],
+    "call_graph_tree": [
+        "test_code/more_complex/src/core/calculator.c:add",
+        "  test_code/more_complex/src/core/calculator.c:log_operation",
+        "test_code/more_complex/src/core/calculator.c:calculator_create",
+        "  ?:malloc",
+        "test_code/more_complex/src/core/calculator.c:calculator_destroy",
+        "  ?:free",
+        "test_code/more_complex/src/core/calculator.c:calculator_log_stats",
+        "  test_code/more_complex/src/core/calculator.c:log_message",
+        "  test_code/more_complex/src/core/calculator.c:log_operation",
+        "test_code/more_complex/src/core/calculator.c:calculator_perform_operation",
+        "  test_code/more_complex/src/core/calculator.c:add",
+        "  test_code/more_complex/src/core/calculator.c:divide",
+        "  test_code/more_complex/src/core/calculator.c:log_error",
+        "  test_code/more_complex/src/core/calculator.c:log_operation",
+        "  test_code/more_complex/src/core/calculator.c:multiply",
+        "  test_code/more_complex/src/core/calculator.c:subtract",
+        "test_code/more_complex/src/core/calculator.c:divide",
+        "  test_code/more_complex/src/core/calculator.c:log_error",
+        "  test_code/more_complex/src/core/calculator.c:log_operation",
+        "test_code/more_complex/src/core/calculator.c:log_error",
+        "  test_code/more_complex/src/core/calculator.c:log_message",
+        "test_code/more_complex/src/core/calculator.c:log_message",
+        "  ?:ctime",
+        "  ?:printf",
+        "  ?:strlen",
+        "  ?:time",
+        "test_code/more_complex/src/core/calculator.c:log_operation",
+        "  test_code/more_complex/src/core/calculator.c:log_message",
+        "test_code/more_complex/src/main.c:main",
+        "  test_code/more_complex/src/core/calculator.c:calculator_create",
+        "  test_code/more_complex/src/core/calculator.c:calculator_destroy",
+        "  test_code/more_complex/src/core/calculator.c:calculator_log_stats",
+        "  test_code/more_complex/src/core/calculator.c:calculator_perform_operation",
+        "  ?:printf",
+        "test_code/more_complex/src/core/calculator.c:multiply",
+        "  test_code/more_complex/src/core/calculator.c:log_operation",
+        "test_code/more_complex/src/core/calculator.c:subtract",
+        "  test_code/more_complex/src/core/calculator.c:log_operation"
+    ],
+    "cleaned_call_graph": [
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 5,
+            "method": "calculator_create",
+            "name": "malloc"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 15,
+            "method": "calculator_destroy",
+            "name": "free"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 21,
+            "method": "calculator_perform_operation",
+            "name": "log_error"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 28,
+            "method": "calculator_perform_operation",
+            "name": "add"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 31,
+            "method": "calculator_perform_operation",
+            "name": "subtract"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 34,
+            "method": "calculator_perform_operation",
+            "name": "multiply"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 38,
+            "method": "calculator_perform_operation",
+            "name": "divide"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 40,
+            "method": "calculator_perform_operation",
+            "name": "log_error"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 48,
+            "method": "calculator_perform_operation",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 54,
+            "method": "calculator_log_stats",
+            "name": "log_message"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 55,
+            "method": "calculator_log_stats",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 56,
+            "method": "calculator_log_stats",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 6,
+            "method": "main",
+            "name": "calculator_create"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 8,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 16,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 17,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 20,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 21,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 24,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 25,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 28,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 29,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 32,
+            "method": "main",
+            "name": "calculator_perform_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 33,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 36,
+            "method": "main",
+            "name": "calculator_log_stats"
+        },
+        {
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 39,
+            "method": "main",
+            "name": "calculator_destroy"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 6,
+            "method": "add",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 12,
+            "method": "subtract",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 18,
+            "method": "multiply",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 24,
+            "method": "divide",
+            "name": "log_error"
+        },
+        {
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 28,
+            "method": "divide",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 7,
+            "method": "log_message",
+            "name": "time"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 8,
+            "method": "log_message",
+            "name": "ctime"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 9,
+            "method": "log_message",
+            "name": "strlen"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 26,
+            "method": "log_message",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 32,
+            "method": "log_operation",
+            "name": "log_message"
+        },
+        {
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 36,
+            "method": "log_error",
+            "name": "log_message"
+        }
+    ],
+    "cleaned_functions": [
+        {
+            "code": "Calculator* calculator_create(void) {\n    Calculator* calc = (Calculator*)malloc(sizeof(Calculator));\n    if (calc) {\n        calc->result = 0.0;\n        calc->operation_count = 0;\n    }\n    return calc;\n}",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 4,
+            "name": "calculator_create",
+            "signature": "Calculator(void)"
+        },
+        {
+            "code": "#include \"../../include/core/calculator.h\"\n#include <stdlib.h>\n\nCalculator* calculator_create(void) {\n    Calculator* calc = (Calculator*)malloc(sizeof(Calculator));\n    if (calc) {\n        calc->result = 0.0;\n        calc->operation_count = 0;\n    }\n    return calc;\n}\n\nvoid calculator_destroy(Calculator* calc) {\n    if (calc) {\n        free(calc);\n    }\n}\n\ndouble calculator_perform_operation(Calculator* calc, double a, double b, OperationType op) {\n    if (!calc) {\n        log_error(\"Invalid calculator instance\");\n        return 0.0;\n    }\n\n    double result = 0.0;\n    switch (op) {\n        case OP_ADD:\n            result = add(a, b);\n            break;\n        case OP_SUBTRACT:\n            result = subtract(a, b);\n            break;\n        case OP_MULTIPLY:\n            result = multiply(a, b);\n            break;\n        case OP_DIVIDE:\n            if (b != 0.0) {\n                result = divide(a, b);\n            } else {\n                log_error(\"Division by zero\");\n                return 0.0;\n            }\n            break;\n    }\n\n    calc->result = result;\n    calc->operation_count++;\n    log_operation(\"Operation performed\", result);\n    return result;\n}\n\nvoid calculator_log_stats(Calculator* calc) {\n    if (calc) {\n        log_message(LOG_INFO, \"Calculator Statistics:\");\n        log_operation(\"Total operations\", calc->operation_count);\n        log_operation(\"Last result\", calc->result);\n    }\n} ",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void calculator_destroy(Calculator* calc) {\n    if (calc) {\n        free(calc);\n    }\n}",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 13,
+            "name": "calculator_destroy",
+            "signature": "void(Calculator*)"
+        },
+        {
+            "code": "double calculator_perform_operation(Calculator* calc, double a, double b, OperationType op) {\n    if (!calc) {\n        log_error(\"Invalid calculator instance\");\n        return 0.0;\n    }\n\n    double result = 0.0;\n    switch (op) {\n        case OP_ADD:\n            result = add(a, b);\n            break;\n        case OP_SUBTRACT:\n            result = subtract(a, b);\n            break;\n        case OP_MULTIPLY:\n            result = multiply(a, b);\n            break;\n        case OP_DIVIDE:\n            if (b != 0.0) {\n                result = divide(a, b);\n            } else {\n                log_error(\"Division by zero\");\n                return 0.0;\n            }\n            break;\n    }\n\n    calc->result = result;\n    calc->operation_count++;\n    log_operation(\"Operation performed\", result);\n    return result;\n}",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 19,
+            "name": "calculator_perform_operation",
+            "signature": "double(Calculator*,double,double,OperationType)"
+        },
+        {
+            "code": "void calculator_log_stats(Calculator* calc) {\n    if (calc) {\n        log_message(LOG_INFO, \"Calculator Statistics:\");\n        log_operation(\"Total operations\", calc->operation_count);\n        log_operation(\"Last result\", calc->result);\n    }\n} ",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 52,
+            "name": "calculator_log_stats",
+            "signature": "void(Calculator*)"
+        },
+        {
+            "code": "int main() {\n    // Create calculator instance\n    Calculator* calc = calculator_create();\n    if (!calc) {\n        printf(\"Failed to create calculator\\n\");\n        return 1;\n    }\n\n    // Perform some operations\n    double result;\n\n    // Addition\n    result = calculator_perform_operation(calc, 10.5, 5.2, OP_ADD);\n    printf(\"10.5 + 5.2 = %.2f\\n\", result);\n\n    // Subtraction\n    result = calculator_perform_operation(calc, 20.0, 7.5, OP_SUBTRACT);\n    printf(\"20.0 - 7.5 = %.2f\\n\", result);\n\n    // Multiplication\n    result = calculator_perform_operation(calc, 4.0, 3.0, OP_MULTIPLY);\n    printf(\"4.0 * 3.0 = %.2f\\n\", result);\n\n    // Division\n    result = calculator_perform_operation(calc, 15.0, 3.0, OP_DIVIDE);\n    printf(\"15.0 / 3.0 = %.2f\\n\", result);\n\n    // Try division by zero\n    result = calculator_perform_operation(calc, 10.0, 0.0, OP_DIVIDE);\n    printf(\"10.0 / 0.0 = %.2f\\n\", result);\n\n    // Log calculator statistics\n    calculator_log_stats(calc);\n\n    // Clean up\n    calculator_destroy(calc);\n    return 0;\n} ",
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 4,
+            "name": "main",
+            "signature": "int()"
+        },
+        {
+            "code": "#include \"include/core/calculator.h\"\n#include <stdio.h>\n\nint main() {\n    // Create calculator instance\n    Calculator* calc = calculator_create();\n    if (!calc) {\n        printf(\"Failed to create calculator\\n\");\n        return 1;\n    }\n\n    // Perform some operations\n    double result;\n\n    // Addition\n    result = calculator_perform_operation(calc, 10.5, 5.2, OP_ADD);\n    printf(\"10.5 + 5.2 = %.2f\\n\", result);\n\n    // Subtraction\n    result = calculator_perform_operation(calc, 20.0, 7.5, OP_SUBTRACT);\n    printf(\"20.0 - 7.5 = %.2f\\n\", result);\n\n    // Multiplication\n    result = calculator_perform_operation(calc, 4.0, 3.0, OP_MULTIPLY);\n    printf(\"4.0 * 3.0 = %.2f\\n\", result);\n\n    // Division\n    result = calculator_perform_operation(calc, 15.0, 3.0, OP_DIVIDE);\n    printf(\"15.0 / 3.0 = %.2f\\n\", result);\n\n    // Try division by zero\n    result = calculator_perform_operation(calc, 10.0, 0.0, OP_DIVIDE);\n    printf(\"10.0 / 0.0 = %.2f\\n\", result);\n\n    // Log calculator statistics\n    calculator_log_stats(calc);\n\n    // Clean up\n    calculator_destroy(calc);\n    return 0;\n} ",
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "double add(double a, double b) {\n    double result = a + b;\n    log_operation(\"Addition\", result);\n    return result;\n}",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 4,
+            "name": "add",
+            "signature": "double(double,double)"
+        },
+        {
+            "code": "#include \"../../include/math/operations.h\"\n#include \"../utils/logger.c\"\n\ndouble add(double a, double b) {\n    double result = a + b;\n    log_operation(\"Addition\", result);\n    return result;\n}\n\ndouble subtract(double a, double b) {\n    double result = a - b;\n    log_operation(\"Subtraction\", result);\n    return result;\n}\n\ndouble multiply(double a, double b) {\n    double result = a * b;\n    log_operation(\"Multiplication\", result);\n    return result;\n}\n\ndouble divide(double a, double b) {\n    if (b == 0.0) {\n        log_error(\"Division by zero attempted\");\n        return 0.0;\n    }\n    double result = a / b;\n    log_operation(\"Division\", result);\n    return result;\n} ",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "double subtract(double a, double b) {\n    double result = a - b;\n    log_operation(\"Subtraction\", result);\n    return result;\n}",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 10,
+            "name": "subtract",
+            "signature": "double(double,double)"
+        },
+        {
+            "code": "double multiply(double a, double b) {\n    double result = a * b;\n    log_operation(\"Multiplication\", result);\n    return result;\n}",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 16,
+            "name": "multiply",
+            "signature": "double(double,double)"
+        },
+        {
+            "code": "double divide(double a, double b) {\n    if (b == 0.0) {\n        log_error(\"Division by zero attempted\");\n        return 0.0;\n    }\n    double result = a / b;\n    log_operation(\"Division\", result);\n    return result;\n} ",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 22,
+            "name": "divide",
+            "signature": "double(double,double)"
+        },
+        {
+            "code": "void log_message(LogLevel level, const char* message) {\n    time_t now;\n    time(&now);\n    char* timestamp = ctime(&now);\n    timestamp[strlen(timestamp) - 1] = '\\0';  // Remove newline\n\n    const char* level_str;\n    switch (level) {\n        case LOG_INFO:\n            level_str = \"INFO\";\n            break;\n        case LOG_WARNING:\n            level_str = \"WARNING\";\n            break;\n        case LOG_ERROR:\n            level_str = \"ERROR\";\n            break;\n        default:\n            level_str = \"UNKNOWN\";\n    }\n\n    printf(\"[%s] [%s] %s\\n\", timestamp, level_str, message);\n}",
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 5,
+            "name": "log_message",
+            "signature": "void(LogLevel,char*)"
+        },
+        {
+            "code": "#include \"../../include/utils/logger.h\"\n#include <stdio.h>\n#include <time.h>\n\nvoid log_message(LogLevel level, const char* message) {\n    time_t now;\n    time(&now);\n    char* timestamp = ctime(&now);\n    timestamp[strlen(timestamp) - 1] = '\\0';  // Remove newline\n\n    const char* level_str;\n    switch (level) {\n        case LOG_INFO:\n            level_str = \"INFO\";\n            break;\n        case LOG_WARNING:\n            level_str = \"WARNING\";\n            break;\n        case LOG_ERROR:\n            level_str = \"ERROR\";\n            break;\n        default:\n            level_str = \"UNKNOWN\";\n    }\n\n    printf(\"[%s] [%s] %s\\n\", timestamp, level_str, message);\n}\n\nvoid log_operation(const char* operation, double result) {\n    char message[256];\n    snprintf(message, sizeof(message), \"%s: %.2f\", operation, result);\n    log_message(LOG_INFO, message);\n}\n\nvoid log_error(const char* error_message) {\n    log_message(LOG_ERROR, error_message);\n} ",
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void log_operation(const char* operation, double result) {\n    char message[256];\n    snprintf(message, sizeof(message), \"%s: %.2f\", operation, result);\n    log_message(LOG_INFO, message);\n}",
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 29,
+            "name": "log_operation",
+            "signature": "void(char*,double)"
+        },
+        {
+            "code": "void log_error(const char* error_message) {\n    log_message(LOG_ERROR, error_message);\n} ",
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 35,
+            "name": "log_error",
+            "signature": "void(char*)"
+        },
+        {
+            "code": "#ifndef CALCULATOR_H\n#define CALCULATOR_H\n\n#include \"../math/operations.h\"\n#include \"../utils/logger.h\"\n\ntypedef struct {\n    double result;\n    int operation_count;\n} Calculator;\n\nCalculator* calculator_create(void);\nvoid calculator_destroy(Calculator* calc);\ndouble calculator_perform_operation(Calculator* calc, double a, double b, OperationType op);\nvoid calculator_log_stats(Calculator* calc);\n\n#endif // CALCULATOR_H ",
+            "file": "test_code/more_complex/include/core/calculator.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef OPERATIONS_H\n#define OPERATIONS_H\n\ntypedef enum {\n    OP_ADD,\n    OP_SUBTRACT,\n    OP_MULTIPLY,\n    OP_DIVIDE\n} OperationType;\n\ndouble add(double a, double b);\ndouble subtract(double a, double b);\ndouble multiply(double a, double b);\ndouble divide(double a, double b);\n\n#endif // OPERATIONS_H ",
+            "file": "test_code/more_complex/include/math/operations.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef LOGGER_H\n#define LOGGER_H\n\ntypedef enum {\n    LOG_INFO,\n    LOG_WARNING,\n    LOG_ERROR\n} LogLevel;\n\nvoid log_message(LogLevel level, const char* message);\nvoid log_operation(const char* operation, double result);\nvoid log_error(const char* error_message);\n\n#endif // LOGGER_H ",
+            "file": "test_code/more_complex/include/utils/logger.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        }
+    ],
+    "functions": [
+        {
+            "code": "Calculator* calculator_create(void) {\n    Calculator* calc = (Calculator*)malloc(sizeof(Calculator));\n    if (calc) {\n        calc->result = 0.0;\n        calc->operation_count = 0;\n    }\n    return calc;\n}",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 4,
+            "name": "calculator_create",
+            "signature": "Calculator(void)"
+        },
+        {
+            "code": "#include \"../../include/core/calculator.h\"\n#include <stdlib.h>\n\nCalculator* calculator_create(void) {\n    Calculator* calc = (Calculator*)malloc(sizeof(Calculator));\n    if (calc) {\n        calc->result = 0.0;\n        calc->operation_count = 0;\n    }\n    return calc;\n}\n\nvoid calculator_destroy(Calculator* calc) {\n    if (calc) {\n        free(calc);\n    }\n}\n\ndouble calculator_perform_operation(Calculator* calc, double a, double b, OperationType op) {\n    if (!calc) {\n        log_error(\"Invalid calculator instance\");\n        return 0.0;\n    }\n\n    double result = 0.0;\n    switch (op) {\n        case OP_ADD:\n            result = add(a, b);\n            break;\n        case OP_SUBTRACT:\n            result = subtract(a, b);\n            break;\n        case OP_MULTIPLY:\n            result = multiply(a, b);\n            break;\n        case OP_DIVIDE:\n            if (b != 0.0) {\n                result = divide(a, b);\n            } else {\n                log_error(\"Division by zero\");\n                return 0.0;\n            }\n            break;\n    }\n\n    calc->result = result;\n    calc->operation_count++;\n    log_operation(\"Operation performed\", result);\n    return result;\n}\n\nvoid calculator_log_stats(Calculator* calc) {\n    if (calc) {\n        log_message(LOG_INFO, \"Calculator Statistics:\");\n        log_operation(\"Total operations\", calc->operation_count);\n        log_operation(\"Last result\", calc->result);\n    }\n} ",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void calculator_destroy(Calculator* calc) {\n    if (calc) {\n        free(calc);\n    }\n}",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 13,
+            "name": "calculator_destroy",
+            "signature": "void(Calculator*)"
+        },
+        {
+            "code": "double calculator_perform_operation(Calculator* calc, double a, double b, OperationType op) {\n    if (!calc) {\n        log_error(\"Invalid calculator instance\");\n        return 0.0;\n    }\n\n    double result = 0.0;\n    switch (op) {\n        case OP_ADD:\n            result = add(a, b);\n            break;\n        case OP_SUBTRACT:\n            result = subtract(a, b);\n            break;\n        case OP_MULTIPLY:\n            result = multiply(a, b);\n            break;\n        case OP_DIVIDE:\n            if (b != 0.0) {\n                result = divide(a, b);\n            } else {\n                log_error(\"Division by zero\");\n                return 0.0;\n            }\n            break;\n    }\n\n    calc->result = result;\n    calc->operation_count++;\n    log_operation(\"Operation performed\", result);\n    return result;\n}",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 19,
+            "name": "calculator_perform_operation",
+            "signature": "double(Calculator*,double,double,OperationType)"
+        },
+        {
+            "code": "void calculator_log_stats(Calculator* calc) {\n    if (calc) {\n        log_message(LOG_INFO, \"Calculator Statistics:\");\n        log_operation(\"Total operations\", calc->operation_count);\n        log_operation(\"Last result\", calc->result);\n    }\n} ",
+            "file": "test_code/more_complex/src/core/calculator.c",
+            "lineNumber": 52,
+            "name": "calculator_log_stats",
+            "signature": "void(Calculator*)"
+        },
+        {
+            "code": "int main() {\n    // Create calculator instance\n    Calculator* calc = calculator_create();\n    if (!calc) {\n        printf(\"Failed to create calculator\\n\");\n        return 1;\n    }\n\n    // Perform some operations\n    double result;\n\n    // Addition\n    result = calculator_perform_operation(calc, 10.5, 5.2, OP_ADD);\n    printf(\"10.5 + 5.2 = %.2f\\n\", result);\n\n    // Subtraction\n    result = calculator_perform_operation(calc, 20.0, 7.5, OP_SUBTRACT);\n    printf(\"20.0 - 7.5 = %.2f\\n\", result);\n\n    // Multiplication\n    result = calculator_perform_operation(calc, 4.0, 3.0, OP_MULTIPLY);\n    printf(\"4.0 * 3.0 = %.2f\\n\", result);\n\n    // Division\n    result = calculator_perform_operation(calc, 15.0, 3.0, OP_DIVIDE);\n    printf(\"15.0 / 3.0 = %.2f\\n\", result);\n\n    // Try division by zero\n    result = calculator_perform_operation(calc, 10.0, 0.0, OP_DIVIDE);\n    printf(\"10.0 / 0.0 = %.2f\\n\", result);\n\n    // Log calculator statistics\n    calculator_log_stats(calc);\n\n    // Clean up\n    calculator_destroy(calc);\n    return 0;\n} ",
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 4,
+            "name": "main",
+            "signature": "int()"
+        },
+        {
+            "code": "#include \"include/core/calculator.h\"\n#include <stdio.h>\n\nint main() {\n    // Create calculator instance\n    Calculator* calc = calculator_create();\n    if (!calc) {\n        printf(\"Failed to create calculator\\n\");\n        return 1;\n    }\n\n    // Perform some operations\n    double result;\n\n    // Addition\n    result = calculator_perform_operation(calc, 10.5, 5.2, OP_ADD);\n    printf(\"10.5 + 5.2 = %.2f\\n\", result);\n\n    // Subtraction\n    result = calculator_perform_operation(calc, 20.0, 7.5, OP_SUBTRACT);\n    printf(\"20.0 - 7.5 = %.2f\\n\", result);\n\n    // Multiplication\n    result = calculator_perform_operation(calc, 4.0, 3.0, OP_MULTIPLY);\n    printf(\"4.0 * 3.0 = %.2f\\n\", result);\n\n    // Division\n    result = calculator_perform_operation(calc, 15.0, 3.0, OP_DIVIDE);\n    printf(\"15.0 / 3.0 = %.2f\\n\", result);\n\n    // Try division by zero\n    result = calculator_perform_operation(calc, 10.0, 0.0, OP_DIVIDE);\n    printf(\"10.0 / 0.0 = %.2f\\n\", result);\n\n    // Log calculator statistics\n    calculator_log_stats(calc);\n\n    // Clean up\n    calculator_destroy(calc);\n    return 0;\n} ",
+            "file": "test_code/more_complex/src/main.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "double add(double a, double b) {\n    double result = a + b;\n    log_operation(\"Addition\", result);\n    return result;\n}",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 4,
+            "name": "add",
+            "signature": "double(double,double)"
+        },
+        {
+            "code": "#include \"../../include/math/operations.h\"\n#include \"../utils/logger.c\"\n\ndouble add(double a, double b) {\n    double result = a + b;\n    log_operation(\"Addition\", result);\n    return result;\n}\n\ndouble subtract(double a, double b) {\n    double result = a - b;\n    log_operation(\"Subtraction\", result);\n    return result;\n}\n\ndouble multiply(double a, double b) {\n    double result = a * b;\n    log_operation(\"Multiplication\", result);\n    return result;\n}\n\ndouble divide(double a, double b) {\n    if (b == 0.0) {\n        log_error(\"Division by zero attempted\");\n        return 0.0;\n    }\n    double result = a / b;\n    log_operation(\"Division\", result);\n    return result;\n} ",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "double subtract(double a, double b) {\n    double result = a - b;\n    log_operation(\"Subtraction\", result);\n    return result;\n}",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 10,
+            "name": "subtract",
+            "signature": "double(double,double)"
+        },
+        {
+            "code": "double multiply(double a, double b) {\n    double result = a * b;\n    log_operation(\"Multiplication\", result);\n    return result;\n}",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 16,
+            "name": "multiply",
+            "signature": "double(double,double)"
+        },
+        {
+            "code": "double divide(double a, double b) {\n    if (b == 0.0) {\n        log_error(\"Division by zero attempted\");\n        return 0.0;\n    }\n    double result = a / b;\n    log_operation(\"Division\", result);\n    return result;\n} ",
+            "file": "test_code/more_complex/src/math/operations.c",
+            "lineNumber": 22,
+            "name": "divide",
+            "signature": "double(double,double)"
+        },
+        {
+            "code": "void log_message(LogLevel level, const char* message) {\n    time_t now;\n    time(&now);\n    char* timestamp = ctime(&now);\n    timestamp[strlen(timestamp) - 1] = '\\0';  // Remove newline\n\n    const char* level_str;\n    switch (level) {\n        case LOG_INFO:\n            level_str = \"INFO\";\n            break;\n        case LOG_WARNING:\n            level_str = \"WARNING\";\n            break;\n        case LOG_ERROR:\n            level_str = \"ERROR\";\n            break;\n        default:\n            level_str = \"UNKNOWN\";\n    }\n\n    printf(\"[%s] [%s] %s\\n\", timestamp, level_str, message);\n}",
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 5,
+            "name": "log_message",
+            "signature": "void(LogLevel,char*)"
+        },
+        {
+            "code": "#include \"../../include/utils/logger.h\"\n#include <stdio.h>\n#include <time.h>\n\nvoid log_message(LogLevel level, const char* message) {\n    time_t now;\n    time(&now);\n    char* timestamp = ctime(&now);\n    timestamp[strlen(timestamp) - 1] = '\\0';  // Remove newline\n\n    const char* level_str;\n    switch (level) {\n        case LOG_INFO:\n            level_str = \"INFO\";\n            break;\n        case LOG_WARNING:\n            level_str = \"WARNING\";\n            break;\n        case LOG_ERROR:\n            level_str = \"ERROR\";\n            break;\n        default:\n            level_str = \"UNKNOWN\";\n    }\n\n    printf(\"[%s] [%s] %s\\n\", timestamp, level_str, message);\n}\n\nvoid log_operation(const char* operation, double result) {\n    char message[256];\n    snprintf(message, sizeof(message), \"%s: %.2f\", operation, result);\n    log_message(LOG_INFO, message);\n}\n\nvoid log_error(const char* error_message) {\n    log_message(LOG_ERROR, error_message);\n} ",
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void log_operation(const char* operation, double result) {\n    char message[256];\n    snprintf(message, sizeof(message), \"%s: %.2f\", operation, result);\n    log_message(LOG_INFO, message);\n}",
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 29,
+            "name": "log_operation",
+            "signature": "void(char*,double)"
+        },
+        {
+            "code": "void log_error(const char* error_message) {\n    log_message(LOG_ERROR, error_message);\n} ",
+            "file": "test_code/more_complex/src/utils/logger.c",
+            "lineNumber": 35,
+            "name": "log_error",
+            "signature": "void(char*)"
+        },
+        {
+            "code": "#ifndef CALCULATOR_H\n#define CALCULATOR_H\n\n#include \"../math/operations.h\"\n#include \"../utils/logger.h\"\n\ntypedef struct {\n    double result;\n    int operation_count;\n} Calculator;\n\nCalculator* calculator_create(void);\nvoid calculator_destroy(Calculator* calc);\ndouble calculator_perform_operation(Calculator* calc, double a, double b, OperationType op);\nvoid calculator_log_stats(Calculator* calc);\n\n#endif // CALCULATOR_H ",
+            "file": "test_code/more_complex/include/core/calculator.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef OPERATIONS_H\n#define OPERATIONS_H\n\ntypedef enum {\n    OP_ADD,\n    OP_SUBTRACT,\n    OP_MULTIPLY,\n    OP_DIVIDE\n} OperationType;\n\ndouble add(double a, double b);\ndouble subtract(double a, double b);\ndouble multiply(double a, double b);\ndouble divide(double a, double b);\n\n#endif // OPERATIONS_H ",
+            "file": "test_code/more_complex/include/math/operations.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef LOGGER_H\n#define LOGGER_H\n\ntypedef enum {\n    LOG_INFO,\n    LOG_WARNING,\n    LOG_ERROR\n} LogLevel;\n\nvoid log_message(LogLevel level, const char* message);\nvoid log_operation(const char* operation, double result);\nvoid log_error(const char* error_message);\n\n#endif // LOGGER_H ",
+            "file": "test_code/more_complex/include/utils/logger.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "<global>",
+            "file": "<includes>",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.assignment",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.cast",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "malloc",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.sizeOf",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.indirectFieldAccess",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "free",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.logicalNot",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.notEquals",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.postIncrement",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "printf",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.addition",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.subtraction",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.multiplication",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.equals",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.division",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "time",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.addressOf",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "ctime",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.indirectIndexAccess",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "strlen",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.alloc",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "snprintf",
+            "signature": ""
+        }
+    ]
+}

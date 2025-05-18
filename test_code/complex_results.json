@@ -1,0 +1,3534 @@
+{
+    "call_graph": [
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 7,
+            "method": "read_numbers_from_file",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 7,
+            "method": "read_numbers_from_file",
+            "name": "fopen"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 8,
+            "method": "read_numbers_from_file",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 9,
+            "method": "read_numbers_from_file",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 13,
+            "method": "read_numbers_from_file",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 13,
+            "method": "read_numbers_from_file",
+            "name": "list_create"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 14,
+            "method": "read_numbers_from_file",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 15,
+            "method": "read_numbers_from_file",
+            "name": "fclose"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 20,
+            "method": "read_numbers_from_file",
+            "name": "<operator>.equals"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 20,
+            "method": "read_numbers_from_file",
+            "name": "fscanf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 20,
+            "method": "read_numbers_from_file",
+            "name": "<operator>.addressOf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 21,
+            "method": "read_numbers_from_file",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 24,
+            "method": "read_numbers_from_file",
+            "name": "fclose"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 29,
+            "method": "write_numbers_to_file",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 31,
+            "method": "write_numbers_to_file",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 31,
+            "method": "write_numbers_to_file",
+            "name": "fopen"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 32,
+            "method": "write_numbers_to_file",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 33,
+            "method": "write_numbers_to_file",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 37,
+            "method": "write_numbers_to_file",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 37,
+            "method": "write_numbers_to_file",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 39,
+            "method": "write_numbers_to_file",
+            "name": "fprintf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 39,
+            "method": "write_numbers_to_file",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 40,
+            "method": "write_numbers_to_file",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 40,
+            "method": "write_numbers_to_file",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 43,
+            "method": "write_numbers_to_file",
+            "name": "fclose"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 48,
+            "method": "generate_random_numbers",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 48,
+            "method": "generate_random_numbers",
+            "name": "fopen"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 49,
+            "method": "generate_random_numbers",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 50,
+            "method": "generate_random_numbers",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 54,
+            "method": "generate_random_numbers",
+            "name": "srand"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 54,
+            "method": "generate_random_numbers",
+            "name": "time"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 55,
+            "method": "generate_random_numbers",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 55,
+            "method": "generate_random_numbers",
+            "name": "<operator>.lessThan"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 55,
+            "method": "generate_random_numbers",
+            "name": "<operator>.postIncrement"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 56,
+            "method": "generate_random_numbers",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 56,
+            "method": "generate_random_numbers",
+            "name": "<operator>.addition"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 56,
+            "method": "generate_random_numbers",
+            "name": "<operator>.modulo"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 56,
+            "method": "generate_random_numbers",
+            "name": "rand"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 56,
+            "method": "generate_random_numbers",
+            "name": "<operator>.addition"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 56,
+            "method": "generate_random_numbers",
+            "name": "<operator>.subtraction"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 57,
+            "method": "generate_random_numbers",
+            "name": "fprintf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 60,
+            "method": "generate_random_numbers",
+            "name": "fclose"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 6,
+            "method": "list_create",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 6,
+            "method": "list_create",
+            "name": "<operator>.cast"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 6,
+            "method": "list_create",
+            "name": "malloc"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 6,
+            "method": "list_create",
+            "name": "<operator>.sizeOf"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 8,
+            "method": "list_create",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 8,
+            "method": "list_create",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 9,
+            "method": "list_create",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 9,
+            "method": "list_create",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 15,
+            "method": "list_destroy",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 17,
+            "method": "list_destroy",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 17,
+            "method": "list_destroy",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 19,
+            "method": "list_destroy",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 19,
+            "method": "list_destroy",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 20,
+            "method": "list_destroy",
+            "name": "free"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 21,
+            "method": "list_destroy",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 23,
+            "method": "list_destroy",
+            "name": "free"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 27,
+            "method": "list_append",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 29,
+            "method": "list_append",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 29,
+            "method": "list_append",
+            "name": "<operator>.cast"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 29,
+            "method": "list_append",
+            "name": "malloc"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 29,
+            "method": "list_append",
+            "name": "<operator>.sizeOf"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 30,
+            "method": "list_append",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 32,
+            "method": "list_append",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 32,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 33,
+            "method": "list_append",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 33,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 35,
+            "method": "list_append",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 35,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 36,
+            "method": "list_append",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 36,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 38,
+            "method": "list_append",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 38,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 39,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 40,
+            "method": "list_append",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 40,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 42,
+            "method": "list_append",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 42,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 44,
+            "method": "list_append",
+            "name": "<operator>.postIncrement"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 44,
+            "method": "list_append",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 48,
+            "method": "list_prepend",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 50,
+            "method": "list_prepend",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 50,
+            "method": "list_prepend",
+            "name": "<operator>.cast"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 50,
+            "method": "list_prepend",
+            "name": "malloc"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 50,
+            "method": "list_prepend",
+            "name": "<operator>.sizeOf"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 51,
+            "method": "list_prepend",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 53,
+            "method": "list_prepend",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 53,
+            "method": "list_prepend",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 54,
+            "method": "list_prepend",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 54,
+            "method": "list_prepend",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 54,
+            "method": "list_prepend",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 55,
+            "method": "list_prepend",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 55,
+            "method": "list_prepend",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 56,
+            "method": "list_prepend",
+            "name": "<operator>.postIncrement"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 56,
+            "method": "list_prepend",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 60,
+            "method": "list_remove",
+            "name": "<operator>.logicalOr"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 60,
+            "method": "list_remove",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 60,
+            "method": "list_remove",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 60,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 62,
+            "method": "list_remove",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 62,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 63,
+            "method": "list_remove",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 66,
+            "method": "list_remove",
+            "name": "<operator>.equals"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 66,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 68,
+            "method": "list_remove",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 68,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 68,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 70,
+            "method": "list_remove",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 70,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 70,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 72,
+            "method": "list_remove",
+            "name": "free"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 73,
+            "method": "list_remove",
+            "name": "<operator>.postDecrement"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 73,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 76,
+            "method": "list_remove",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 77,
+            "method": "list_remove",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 77,
+            "method": "list_remove",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 83,
+            "method": "list_contains",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 85,
+            "method": "list_contains",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 85,
+            "method": "list_contains",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 87,
+            "method": "list_contains",
+            "name": "<operator>.equals"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 87,
+            "method": "list_contains",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 88,
+            "method": "list_contains",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 88,
+            "method": "list_contains",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 94,
+            "method": "list_print",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 96,
+            "method": "list_print",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 97,
+            "method": "list_print",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 97,
+            "method": "list_print",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 99,
+            "method": "list_print",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 99,
+            "method": "list_print",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 100,
+            "method": "list_print",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 100,
+            "method": "list_print",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 102,
+            "method": "list_print",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 106,
+            "method": "list_size",
+            "name": "<operator>.conditional"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 106,
+            "method": "list_size",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 110,
+            "method": "list_get_node",
+            "name": "<operator>.logicalOr"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 110,
+            "method": "list_get_node",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 110,
+            "method": "list_get_node",
+            "name": "<operator>.greaterEqualsThan"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 110,
+            "method": "list_get_node",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 112,
+            "method": "list_get_node",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 112,
+            "method": "list_get_node",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 113,
+            "method": "list_get_node",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 113,
+            "method": "list_get_node",
+            "name": "<operator>.lessThan"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 113,
+            "method": "list_get_node",
+            "name": "<operator>.postIncrement"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 114,
+            "method": "list_get_node",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 114,
+            "method": "list_get_node",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 8,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 9,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 9,
+            "method": "test_list_operations",
+            "name": "list_size"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 12,
+            "method": "test_list_operations",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 13,
+            "method": "test_list_operations",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 14,
+            "method": "test_list_operations",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 15,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 16,
+            "method": "test_list_operations",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 19,
+            "method": "test_list_operations",
+            "name": "list_prepend"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 20,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 21,
+            "method": "test_list_operations",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 24,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 24,
+            "method": "test_list_operations",
+            "name": "list_contains"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 25,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 25,
+            "method": "test_list_operations",
+            "name": "list_contains"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 28,
+            "method": "test_list_operations",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 29,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 30,
+            "method": "test_list_operations",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 34,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 37,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 38,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 39,
+            "method": "test_sorting_algorithms",
+            "name": "bubble_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 40,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 41,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 44,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 45,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 46,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 47,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 48,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 49,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 52,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 53,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 54,
+            "method": "test_sorting_algorithms",
+            "name": "insertion_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 55,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 56,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 59,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 60,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 61,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 62,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 63,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 64,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 67,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 68,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 69,
+            "method": "test_sorting_algorithms",
+            "name": "selection_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 70,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 71,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 74,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 75,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 76,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 77,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 78,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 79,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 82,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 83,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 84,
+            "method": "test_sorting_algorithms",
+            "name": "quick_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 85,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 86,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 90,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 93,
+            "method": "test_file_operations",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 94,
+            "method": "test_file_operations",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 96,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 97,
+            "method": "test_file_operations",
+            "name": "generate_random_numbers"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 100,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 101,
+            "method": "test_file_operations",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 101,
+            "method": "test_file_operations",
+            "name": "read_numbers_from_file"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 102,
+            "method": "test_file_operations",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 103,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 107,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 108,
+            "method": "test_file_operations",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 111,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 112,
+            "method": "test_file_operations",
+            "name": "quick_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 115,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 116,
+            "method": "test_file_operations",
+            "name": "write_numbers_to_file"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 117,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 119,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 122,
+            "method": "test_file_operations",
+            "name": "list_destroy"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 127,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 127,
+            "method": "main",
+            "name": "list_create"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 128,
+            "method": "main",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 129,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 134,
+            "method": "main",
+            "name": "test_list_operations"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 137,
+            "method": "main",
+            "name": "test_sorting_algorithms"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 140,
+            "method": "main",
+            "name": "list_destroy"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 143,
+            "method": "main",
+            "name": "test_file_operations"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 5,
+            "method": "swap_nodes",
+            "name": "<operator>.logicalOr"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 5,
+            "method": "swap_nodes",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 5,
+            "method": "swap_nodes",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 6,
+            "method": "swap_nodes",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 6,
+            "method": "swap_nodes",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 7,
+            "method": "swap_nodes",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 7,
+            "method": "swap_nodes",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 7,
+            "method": "swap_nodes",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 8,
+            "method": "swap_nodes",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 8,
+            "method": "swap_nodes",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 12,
+            "method": "is_sorted",
+            "name": "<operator>.logicalOr"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 12,
+            "method": "is_sorted",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 12,
+            "method": "is_sorted",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 12,
+            "method": "is_sorted",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 14,
+            "method": "is_sorted",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 14,
+            "method": "is_sorted",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 15,
+            "method": "is_sorted",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 16,
+            "method": "is_sorted",
+            "name": "<operator>.greaterThan"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 16,
+            "method": "is_sorted",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 16,
+            "method": "is_sorted",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 16,
+            "method": "is_sorted",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 19,
+            "method": "is_sorted",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 19,
+            "method": "is_sorted",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 25,
+            "method": "bubble_sort",
+            "name": "<operator>.logicalOr"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 25,
+            "method": "bubble_sort",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 25,
+            "method": "bubble_sort",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 25,
+            "method": "bubble_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 29,
+            "method": "bubble_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 32,
+            "method": "bubble_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 33,
+            "method": "bubble_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 33,
+            "method": "bubble_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 35,
+            "method": "bubble_sort",
+            "name": "<operator>.notEquals"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 35,
+            "method": "bubble_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 36,
+            "method": "bubble_sort",
+            "name": "<operator>.greaterThan"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 36,
+            "method": "bubble_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 36,
+            "method": "bubble_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 36,
+            "method": "bubble_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 37,
+            "method": "bubble_sort",
+            "name": "swap_nodes"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 37,
+            "method": "bubble_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 38,
+            "method": "bubble_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 40,
+            "method": "bubble_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 40,
+            "method": "bubble_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 42,
+            "method": "bubble_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 47,
+            "method": "insertion_sort",
+            "name": "<operator>.logicalOr"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 47,
+            "method": "insertion_sort",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 47,
+            "method": "insertion_sort",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 47,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 49,
+            "method": "insertion_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 49,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 49,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 51,
+            "method": "insertion_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 52,
+            "method": "insertion_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 52,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 54,
+            "method": "insertion_sort",
+            "name": "<operator>.logicalAnd"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 54,
+            "method": "insertion_sort",
+            "name": "<operator>.notEquals"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 54,
+            "method": "insertion_sort",
+            "name": "<operator>.greaterThan"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 54,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 54,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 55,
+            "method": "insertion_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 55,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 55,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 55,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 56,
+            "method": "insertion_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 56,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 58,
+            "method": "insertion_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 58,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 58,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 59,
+            "method": "insertion_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 59,
+            "method": "insertion_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 64,
+            "method": "selection_sort",
+            "name": "<operator>.logicalOr"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 64,
+            "method": "selection_sort",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 64,
+            "method": "selection_sort",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 64,
+            "method": "selection_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 66,
+            "method": "selection_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 66,
+            "method": "selection_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 68,
+            "method": "selection_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 69,
+            "method": "selection_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 69,
+            "method": "selection_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 72,
+            "method": "selection_sort",
+            "name": "<operator>.lessThan"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 72,
+            "method": "selection_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 72,
+            "method": "selection_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 73,
+            "method": "selection_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 75,
+            "method": "selection_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 75,
+            "method": "selection_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 78,
+            "method": "selection_sort",
+            "name": "<operator>.notEquals"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 79,
+            "method": "selection_sort",
+            "name": "swap_nodes"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 81,
+            "method": "selection_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 81,
+            "method": "selection_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 87,
+            "method": "partition",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 87,
+            "method": "partition",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 88,
+            "method": "partition",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 90,
+            "method": "partition",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 90,
+            "method": "partition",
+            "name": "<operator>.notEquals"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 90,
+            "method": "partition",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 90,
+            "method": "partition",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 91,
+            "method": "partition",
+            "name": "<operator>.lessEqualsThan"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 91,
+            "method": "partition",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 92,
+            "method": "partition",
+            "name": "swap_nodes"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 93,
+            "method": "partition",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 93,
+            "method": "partition",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 96,
+            "method": "partition",
+            "name": "swap_nodes"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 102,
+            "method": "quick_sort_recursive",
+            "name": "<operator>.logicalAnd"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 102,
+            "method": "quick_sort_recursive",
+            "name": "<operator>.logicalAnd"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 102,
+            "method": "quick_sort_recursive",
+            "name": "<operator>.logicalAnd"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 102,
+            "method": "quick_sort_recursive",
+            "name": "<operator>.notEquals"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 102,
+            "method": "quick_sort_recursive",
+            "name": "<operator>.notEquals"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 102,
+            "method": "quick_sort_recursive",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 103,
+            "method": "quick_sort_recursive",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 103,
+            "method": "quick_sort_recursive",
+            "name": "partition"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 104,
+            "method": "quick_sort_recursive",
+            "name": "quick_sort_recursive"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 105,
+            "method": "quick_sort_recursive",
+            "name": "quick_sort_recursive"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 105,
+            "method": "quick_sort_recursive",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 110,
+            "method": "quick_sort",
+            "name": "<operator>.logicalOr"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 110,
+            "method": "quick_sort",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 110,
+            "method": "quick_sort",
+            "name": "<operator>.logicalNot"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 110,
+            "method": "quick_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 113,
+            "method": "quick_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 113,
+            "method": "quick_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 114,
+            "method": "quick_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 115,
+            "method": "quick_sort",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 115,
+            "method": "quick_sort",
+            "name": "<operator>.indirectFieldAccess"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 118,
+            "method": "quick_sort",
+            "name": "quick_sort_recursive"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 118,
+            "method": "quick_sort",
+            "name": "<operator>.indirectFieldAccess"
+        }
+    ],
+    "call_graph_tree": [
+        "test_code/complex/main.c:bubble_sort",
+        "  test_code/complex/sort.c:swap_nodes",
+        "test_code/complex/file_io.c:generate_random_numbers",
+        "  ?:fclose",
+        "  ?:fopen",
+        "  ?:fprintf",
+        "  ?:printf",
+        "  ?:rand",
+        "  ?:srand",
+        "  ?:time",
+        "test_code/complex/file_io.c:list_append",
+        "  ?:malloc",
+        "test_code/complex/file_io.c:list_create",
+        "  ?:malloc",
+        "test_code/complex/list.c:list_destroy",
+        "  ?:free",
+        "test_code/complex/list.c:list_prepend",
+        "  ?:malloc",
+        "test_code/complex/list.c:list_print",
+        "  ?:printf",
+        "test_code/complex/list.c:list_remove",
+        "  ?:free",
+        "test_code/complex/main.c:main",
+        "  test_code/complex/file_io.c:list_create",
+        "  test_code/complex/list.c:list_destroy",
+        "  ?:printf",
+        "  test_code/complex/main.c:test_file_operations",
+        "  test_code/complex/main.c:test_list_operations",
+        "  test_code/complex/main.c:test_sorting_algorithms",
+        "test_code/complex/sort.c:partition",
+        "  test_code/complex/sort.c:swap_nodes",
+        "test_code/complex/main.c:quick_sort",
+        "  test_code/complex/sort.c:quick_sort_recursive",
+        "test_code/complex/sort.c:quick_sort_recursive",
+        "  test_code/complex/sort.c:partition",
+        "  test_code/complex/sort.c:quick_sort_recursive",
+        "test_code/complex/file_io.c:read_numbers_from_file",
+        "  ?:fclose",
+        "  ?:fopen",
+        "  ?:fscanf",
+        "  test_code/complex/file_io.c:list_append",
+        "  test_code/complex/file_io.c:list_create",
+        "  ?:printf",
+        "test_code/complex/main.c:selection_sort",
+        "  test_code/complex/sort.c:swap_nodes",
+        "test_code/complex/main.c:test_file_operations",
+        "  test_code/complex/file_io.c:generate_random_numbers",
+        "  test_code/complex/list.c:list_destroy",
+        "  test_code/complex/list.c:list_print",
+        "  ?:printf",
+        "  test_code/complex/main.c:quick_sort",
+        "  test_code/complex/file_io.c:read_numbers_from_file",
+        "  test_code/complex/file_io.c:write_numbers_to_file",
+        "test_code/complex/main.c:test_list_operations",
+        "  test_code/complex/file_io.c:list_append",
+        "  test_code/complex/main.c:list_contains",
+        "  test_code/complex/list.c:list_prepend",
+        "  test_code/complex/list.c:list_print",
+        "  test_code/complex/list.c:list_remove",
+        "  test_code/complex/main.c:list_size",
+        "  ?:printf",
+        "test_code/complex/main.c:test_sorting_algorithms",
+        "  test_code/complex/main.c:bubble_sort",
+        "  test_code/complex/main.c:insertion_sort",
+        "  test_code/complex/file_io.c:list_append",
+        "  test_code/complex/list.c:list_print",
+        "  test_code/complex/list.c:list_remove",
+        "  ?:printf",
+        "  test_code/complex/main.c:quick_sort",
+        "  test_code/complex/main.c:selection_sort",
+        "test_code/complex/file_io.c:write_numbers_to_file",
+        "  ?:fclose",
+        "  ?:fopen",
+        "  ?:fprintf",
+        "  ?:printf"
+    ],
+    "cleaned_call_graph": [
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 7,
+            "method": "read_numbers_from_file",
+            "name": "fopen"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 9,
+            "method": "read_numbers_from_file",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 13,
+            "method": "read_numbers_from_file",
+            "name": "list_create"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 15,
+            "method": "read_numbers_from_file",
+            "name": "fclose"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 20,
+            "method": "read_numbers_from_file",
+            "name": "fscanf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 21,
+            "method": "read_numbers_from_file",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 24,
+            "method": "read_numbers_from_file",
+            "name": "fclose"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 31,
+            "method": "write_numbers_to_file",
+            "name": "fopen"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 33,
+            "method": "write_numbers_to_file",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 39,
+            "method": "write_numbers_to_file",
+            "name": "fprintf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 43,
+            "method": "write_numbers_to_file",
+            "name": "fclose"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 48,
+            "method": "generate_random_numbers",
+            "name": "fopen"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 50,
+            "method": "generate_random_numbers",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 54,
+            "method": "generate_random_numbers",
+            "name": "srand"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 54,
+            "method": "generate_random_numbers",
+            "name": "time"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 56,
+            "method": "generate_random_numbers",
+            "name": "rand"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 57,
+            "method": "generate_random_numbers",
+            "name": "fprintf"
+        },
+        {
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 60,
+            "method": "generate_random_numbers",
+            "name": "fclose"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 6,
+            "method": "list_create",
+            "name": "malloc"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 20,
+            "method": "list_destroy",
+            "name": "free"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 23,
+            "method": "list_destroy",
+            "name": "free"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 29,
+            "method": "list_append",
+            "name": "malloc"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 50,
+            "method": "list_prepend",
+            "name": "malloc"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 72,
+            "method": "list_remove",
+            "name": "free"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 96,
+            "method": "list_print",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 99,
+            "method": "list_print",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/list.c",
+            "lineNumber": 102,
+            "method": "list_print",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 8,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 9,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 9,
+            "method": "test_list_operations",
+            "name": "list_size"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 12,
+            "method": "test_list_operations",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 13,
+            "method": "test_list_operations",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 14,
+            "method": "test_list_operations",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 15,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 16,
+            "method": "test_list_operations",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 19,
+            "method": "test_list_operations",
+            "name": "list_prepend"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 20,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 21,
+            "method": "test_list_operations",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 24,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 24,
+            "method": "test_list_operations",
+            "name": "list_contains"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 25,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 25,
+            "method": "test_list_operations",
+            "name": "list_contains"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 28,
+            "method": "test_list_operations",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 29,
+            "method": "test_list_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 30,
+            "method": "test_list_operations",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 34,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 37,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 38,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 39,
+            "method": "test_sorting_algorithms",
+            "name": "bubble_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 40,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 41,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 44,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 45,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 46,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 47,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 48,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 49,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 52,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 53,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 54,
+            "method": "test_sorting_algorithms",
+            "name": "insertion_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 55,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 56,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 59,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 60,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 61,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 62,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 63,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 64,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 67,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 68,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 69,
+            "method": "test_sorting_algorithms",
+            "name": "selection_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 70,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 71,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 74,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 75,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 76,
+            "method": "test_sorting_algorithms",
+            "name": "list_remove"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 77,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 78,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 79,
+            "method": "test_sorting_algorithms",
+            "name": "list_append"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 82,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 83,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 84,
+            "method": "test_sorting_algorithms",
+            "name": "quick_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 85,
+            "method": "test_sorting_algorithms",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 86,
+            "method": "test_sorting_algorithms",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 90,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 96,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 97,
+            "method": "test_file_operations",
+            "name": "generate_random_numbers"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 100,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 101,
+            "method": "test_file_operations",
+            "name": "read_numbers_from_file"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 103,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 107,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 108,
+            "method": "test_file_operations",
+            "name": "list_print"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 111,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 112,
+            "method": "test_file_operations",
+            "name": "quick_sort"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 115,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 116,
+            "method": "test_file_operations",
+            "name": "write_numbers_to_file"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 117,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 119,
+            "method": "test_file_operations",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 122,
+            "method": "test_file_operations",
+            "name": "list_destroy"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 127,
+            "method": "main",
+            "name": "list_create"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 129,
+            "method": "main",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 134,
+            "method": "main",
+            "name": "test_list_operations"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 137,
+            "method": "main",
+            "name": "test_sorting_algorithms"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 140,
+            "method": "main",
+            "name": "list_destroy"
+        },
+        {
+            "file": "test_code/complex/main.c",
+            "lineNumber": 143,
+            "method": "main",
+            "name": "test_file_operations"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 37,
+            "method": "bubble_sort",
+            "name": "swap_nodes"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 79,
+            "method": "selection_sort",
+            "name": "swap_nodes"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 92,
+            "method": "partition",
+            "name": "swap_nodes"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 96,
+            "method": "partition",
+            "name": "swap_nodes"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 103,
+            "method": "quick_sort_recursive",
+            "name": "partition"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 104,
+            "method": "quick_sort_recursive",
+            "name": "quick_sort_recursive"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 105,
+            "method": "quick_sort_recursive",
+            "name": "quick_sort_recursive"
+        },
+        {
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 118,
+            "method": "quick_sort",
+            "name": "quick_sort_recursive"
+        }
+    ],
+    "cleaned_functions": [
+        {
+            "code": "List* read_numbers_from_file(const char* filename) {\n    FILE* file = fopen(filename, \"r\");\n    if (!file) {\n        printf(\"Error opening file %s for reading\\n\", filename);\n        return NULL;\n    }\n    \n    List* list = list_create();\n    if (!list) {\n        fclose(file);\n        return NULL;\n    }\n    \n    int number;\n    while (fscanf(file, \"%d\", &number) == 1) {\n        list_append(list, number);\n    }\n    \n    fclose(file);\n    return list;\n}",
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 6,
+            "name": "read_numbers_from_file",
+            "signature": "List(char*)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include <stdlib.h>\n#include <time.h>\n#include \"file_io.h\"\n\nList* read_numbers_from_file(const char* filename) {\n    FILE* file = fopen(filename, \"r\");\n    if (!file) {\n        printf(\"Error opening file %s for reading\\n\", filename);\n        return NULL;\n    }\n    \n    List* list = list_create();\n    if (!list) {\n        fclose(file);\n        return NULL;\n    }\n    \n    int number;\n    while (fscanf(file, \"%d\", &number) == 1) {\n        list_append(list, number);\n    }\n    \n    fclose(file);\n    return list;\n}\n\nint write_numbers_to_file(const char* filename, List* list) {\n    if (!list) return 0;\n    \n    FILE* file = fopen(filename, \"w\");\n    if (!file) {\n        printf(\"Error opening file %s for writing\\n\", filename);\n        return 0;\n    }\n    \n    Node* current = list->head;\n    while (current) {\n        fprintf(file, \"%d\\n\", current->data);\n        current = current->next;\n    }\n    \n    fclose(file);\n    return 1;\n}\n\nvoid generate_random_numbers(const char* filename, int count, int min, int max) {\n    FILE* file = fopen(filename, \"w\");\n    if (!file) {\n        printf(\"Error opening file %s for writing\\n\", filename);\n        return;\n    }\n    \n    srand(time(NULL));\n    for (int i = 0; i < count; i++) {\n        int number = min + rand() % (max - min + 1);\n        fprintf(file, \"%d\\n\", number);\n    }\n    \n    fclose(file);\n} ",
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "int write_numbers_to_file(const char* filename, List* list) {\n    if (!list) return 0;\n    \n    FILE* file = fopen(filename, \"w\");\n    if (!file) {\n        printf(\"Error opening file %s for writing\\n\", filename);\n        return 0;\n    }\n    \n    Node* current = list->head;\n    while (current) {\n        fprintf(file, \"%d\\n\", current->data);\n        current = current->next;\n    }\n    \n    fclose(file);\n    return 1;\n}",
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 28,
+            "name": "write_numbers_to_file",
+            "signature": "int(char*,List*)"
+        },
+        {
+            "code": "void generate_random_numbers(const char* filename, int count, int min, int max) {\n    FILE* file = fopen(filename, \"w\");\n    if (!file) {\n        printf(\"Error opening file %s for writing\\n\", filename);\n        return;\n    }\n    \n    srand(time(NULL));\n    for (int i = 0; i < count; i++) {\n        int number = min + rand() % (max - min + 1);\n        fprintf(file, \"%d\\n\", number);\n    }\n    \n    fclose(file);\n} ",
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 47,
+            "name": "generate_random_numbers",
+            "signature": "void(char*,int,int,int)"
+        },
+        {
+            "code": "List* list_create(void) {\n    List* list = (List*)malloc(sizeof(List));\n    if (list) {\n        list->head = NULL;\n        list->size = 0;\n    }\n    return list;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 5,
+            "name": "list_create",
+            "signature": "List(void)"
+        },
+        {
+            "code": "#include <stdlib.h>\n#include <stdio.h>\n#include \"list.h\"\n\nList* list_create(void) {\n    List* list = (List*)malloc(sizeof(List));\n    if (list) {\n        list->head = NULL;\n        list->size = 0;\n    }\n    return list;\n}\n\nvoid list_destroy(List* list) {\n    if (!list) return;\n    \n    Node* current = list->head;\n    while (current) {\n        Node* next = current->next;\n        free(current);\n        current = next;\n    }\n    free(list);\n}\n\nvoid list_append(List* list, int data) {\n    if (!list) return;\n    \n    Node* new_node = (Node*)malloc(sizeof(Node));\n    if (!new_node) return;\n    \n    new_node->data = data;\n    new_node->next = NULL;\n    \n    if (!list->head) {\n        list->head = new_node;\n    } else {\n        Node* current = list->head;\n        while (current->next) {\n            current = current->next;\n        }\n        current->next = new_node;\n    }\n    list->size++;\n}\n\nvoid list_prepend(List* list, int data) {\n    if (!list) return;\n    \n    Node* new_node = (Node*)malloc(sizeof(Node));\n    if (!new_node) return;\n    \n    new_node->data = data;\n    new_node->next = list->head;\n    list->head = new_node;\n    list->size++;\n}\n\nint list_remove(List* list, int data) {\n    if (!list || !list->head) return 0;\n    \n    Node* current = list->head;\n    Node* prev = NULL;\n    \n    while (current) {\n        if (current->data == data) {\n            if (prev) {\n                prev->next = current->next;\n            } else {\n                list->head = current->next;\n            }\n            free(current);\n            list->size--;\n            return 1;\n        }\n        prev = current;\n        current = current->next;\n    }\n    return 0;\n}\n\nint list_contains(List* list, int data) {\n    if (!list) return 0;\n    \n    Node* current = list->head;\n    while (current) {\n        if (current->data == data) return 1;\n        current = current->next;\n    }\n    return 0;\n}\n\nvoid list_print(List* list) {\n    if (!list) return;\n    \n    printf(\"List contents: \");\n    Node* current = list->head;\n    while (current) {\n        printf(\"%d \", current->data);\n        current = current->next;\n    }\n    printf(\"\\n\");\n}\n\nsize_t list_size(List* list) {\n    return list ? list->size : 0;\n}\n\nNode* list_get_node(List* list, size_t index) {\n    if (!list || index >= list->size) return NULL;\n    \n    Node* current = list->head;\n    for (size_t i = 0; i < index; i++) {\n        current = current->next;\n    }\n    return current;\n} ",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void list_destroy(List* list) {\n    if (!list) return;\n    \n    Node* current = list->head;\n    while (current) {\n        Node* next = current->next;\n        free(current);\n        current = next;\n    }\n    free(list);\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 14,
+            "name": "list_destroy",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "void list_append(List* list, int data) {\n    if (!list) return;\n    \n    Node* new_node = (Node*)malloc(sizeof(Node));\n    if (!new_node) return;\n    \n    new_node->data = data;\n    new_node->next = NULL;\n    \n    if (!list->head) {\n        list->head = new_node;\n    } else {\n        Node* current = list->head;\n        while (current->next) {\n            current = current->next;\n        }\n        current->next = new_node;\n    }\n    list->size++;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 26,
+            "name": "list_append",
+            "signature": "void(List*,int)"
+        },
+        {
+            "code": "void list_prepend(List* list, int data) {\n    if (!list) return;\n    \n    Node* new_node = (Node*)malloc(sizeof(Node));\n    if (!new_node) return;\n    \n    new_node->data = data;\n    new_node->next = list->head;\n    list->head = new_node;\n    list->size++;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 47,
+            "name": "list_prepend",
+            "signature": "void(List*,int)"
+        },
+        {
+            "code": "int list_remove(List* list, int data) {\n    if (!list || !list->head) return 0;\n    \n    Node* current = list->head;\n    Node* prev = NULL;\n    \n    while (current) {\n        if (current->data == data) {\n            if (prev) {\n                prev->next = current->next;\n            } else {\n                list->head = current->next;\n            }\n            free(current);\n            list->size--;\n            return 1;\n        }\n        prev = current;\n        current = current->next;\n    }\n    return 0;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 59,
+            "name": "list_remove",
+            "signature": "int(List*,int)"
+        },
+        {
+            "code": "int list_contains(List* list, int data) {\n    if (!list) return 0;\n    \n    Node* current = list->head;\n    while (current) {\n        if (current->data == data) return 1;\n        current = current->next;\n    }\n    return 0;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 82,
+            "name": "list_contains",
+            "signature": "int(List*,int)"
+        },
+        {
+            "code": "void list_print(List* list) {\n    if (!list) return;\n    \n    printf(\"List contents: \");\n    Node* current = list->head;\n    while (current) {\n        printf(\"%d \", current->data);\n        current = current->next;\n    }\n    printf(\"\\n\");\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 93,
+            "name": "list_print",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "size_t list_size(List* list) {\n    return list ? list->size : 0;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 105,
+            "name": "list_size",
+            "signature": "size_t(List*)"
+        },
+        {
+            "code": "Node* list_get_node(List* list, size_t index) {\n    if (!list || index >= list->size) return NULL;\n    \n    Node* current = list->head;\n    for (size_t i = 0; i < index; i++) {\n        current = current->next;\n    }\n    return current;\n} ",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 109,
+            "name": "list_get_node",
+            "signature": "Node(List*,size_t)"
+        },
+        {
+            "code": "void test_list_operations(List* list) {\n    printf(\"\\nTesting list operations:\\n\");\n    printf(\"Initial list size: %zu\\n\", list_size(list));\n    \n    // Test append\n    list_append(list, 42);\n    list_append(list, 17);\n    list_append(list, 99);\n    printf(\"After appending 3 numbers:\\n\");\n    list_print(list);\n    \n    // Test prepend\n    list_prepend(list, 5);\n    printf(\"After prepending 5:\\n\");\n    list_print(list);\n    \n    // Test contains\n    printf(\"List contains 17: %d\\n\", list_contains(list, 17));\n    printf(\"List contains 100: %d\\n\", list_contains(list, 100));\n    \n    // Test remove\n    list_remove(list, 17);\n    printf(\"After removing 17:\\n\");\n    list_print(list);\n}",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 7,
+            "name": "test_list_operations",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include <stdlib.h>\n#include \"list.h\"\n#include \"sort.h\"\n#include \"file_io.h\"\n\nvoid test_list_operations(List* list) {\n    printf(\"\\nTesting list operations:\\n\");\n    printf(\"Initial list size: %zu\\n\", list_size(list));\n    \n    // Test append\n    list_append(list, 42);\n    list_append(list, 17);\n    list_append(list, 99);\n    printf(\"After appending 3 numbers:\\n\");\n    list_print(list);\n    \n    // Test prepend\n    list_prepend(list, 5);\n    printf(\"After prepending 5:\\n\");\n    list_print(list);\n    \n    // Test contains\n    printf(\"List contains 17: %d\\n\", list_contains(list, 17));\n    printf(\"List contains 100: %d\\n\", list_contains(list, 100));\n    \n    // Test remove\n    list_remove(list, 17);\n    printf(\"After removing 17:\\n\");\n    list_print(list);\n}\n\nvoid test_sorting_algorithms(List* list) {\n    printf(\"\\nTesting sorting algorithms:\\n\");\n    \n    // Test bubble sort\n    printf(\"Before bubble sort:\\n\");\n    list_print(list);\n    bubble_sort(list);\n    printf(\"After bubble sort:\\n\");\n    list_print(list);\n    \n    // Shuffle the list\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 99);\n    list_append(list, 5);\n    list_append(list, 42);\n    \n    // Test insertion sort\n    printf(\"\\nBefore insertion sort:\\n\");\n    list_print(list);\n    insertion_sort(list);\n    printf(\"After insertion sort:\\n\");\n    list_print(list);\n    \n    // Shuffle again\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 42);\n    list_append(list, 99);\n    list_append(list, 5);\n    \n    // Test selection sort\n    printf(\"\\nBefore selection sort:\\n\");\n    list_print(list);\n    selection_sort(list);\n    printf(\"After selection sort:\\n\");\n    list_print(list);\n    \n    // Shuffle one more time\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 99);\n    list_append(list, 5);\n    list_append(list, 42);\n    \n    // Test quick sort\n    printf(\"\\nBefore quick sort:\\n\");\n    list_print(list);\n    quick_sort(list);\n    printf(\"After quick sort:\\n\");\n    list_print(list);\n}\n\nvoid test_file_operations(void) {\n    printf(\"\\nTesting file operations:\\n\");\n    \n    // Generate random numbers\n    const char* input_file = \"numbers.txt\";\n    const char* output_file = \"sorted_numbers.txt\";\n    \n    printf(\"Generating random numbers...\\n\");\n    generate_random_numbers(input_file, 10, 1, 100);\n    \n    // Read numbers from file\n    printf(\"Reading numbers from file...\\n\");\n    List* list = read_numbers_from_file(input_file);\n    if (!list) {\n        printf(\"Error reading numbers from file\\n\");\n        return;\n    }\n    \n    printf(\"Numbers read from file:\\n\");\n    list_print(list);\n    \n    // Sort the numbers\n    printf(\"\\nSorting numbers...\\n\");\n    quick_sort(list);\n    \n    // Write sorted numbers to file\n    printf(\"Writing sorted numbers to file...\\n\");\n    if (write_numbers_to_file(output_file, list)) {\n        printf(\"Sorted numbers written to %s\\n\", output_file);\n    } else {\n        printf(\"Error writing sorted numbers to file\\n\");\n    }\n    \n    list_destroy(list);\n}\n\nint main(void) {\n    // Create a new list\n    List* list = list_create();\n    if (!list) {\n        printf(\"Error creating list\\n\");\n        return 1;\n    }\n    \n    // Test list operations\n    test_list_operations(list);\n    \n    // Test sorting algorithms\n    test_sorting_algorithms(list);\n    \n    // Clean up the list\n    list_destroy(list);\n    \n    // Test file operations\n    test_file_operations();\n    \n    return 0;\n} ",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void test_sorting_algorithms(List* list) {\n    printf(\"\\nTesting sorting algorithms:\\n\");\n    \n    // Test bubble sort\n    printf(\"Before bubble sort:\\n\");\n    list_print(list);\n    bubble_sort(list);\n    printf(\"After bubble sort:\\n\");\n    list_print(list);\n    \n    // Shuffle the list\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 99);\n    list_append(list, 5);\n    list_append(list, 42);\n    \n    // Test insertion sort\n    printf(\"\\nBefore insertion sort:\\n\");\n    list_print(list);\n    insertion_sort(list);\n    printf(\"After insertion sort:\\n\");\n    list_print(list);\n    \n    // Shuffle again\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 42);\n    list_append(list, 99);\n    list_append(list, 5);\n    \n    // Test selection sort\n    printf(\"\\nBefore selection sort:\\n\");\n    list_print(list);\n    selection_sort(list);\n    printf(\"After selection sort:\\n\");\n    list_print(list);\n    \n    // Shuffle one more time\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 99);\n    list_append(list, 5);\n    list_append(list, 42);\n    \n    // Test quick sort\n    printf(\"\\nBefore quick sort:\\n\");\n    list_print(list);\n    quick_sort(list);\n    printf(\"After quick sort:\\n\");\n    list_print(list);\n}",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 33,
+            "name": "test_sorting_algorithms",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "void test_file_operations(void) {\n    printf(\"\\nTesting file operations:\\n\");\n    \n    // Generate random numbers\n    const char* input_file = \"numbers.txt\";\n    const char* output_file = \"sorted_numbers.txt\";\n    \n    printf(\"Generating random numbers...\\n\");\n    generate_random_numbers(input_file, 10, 1, 100);\n    \n    // Read numbers from file\n    printf(\"Reading numbers from file...\\n\");\n    List* list = read_numbers_from_file(input_file);\n    if (!list) {\n        printf(\"Error reading numbers from file\\n\");\n        return;\n    }\n    \n    printf(\"Numbers read from file:\\n\");\n    list_print(list);\n    \n    // Sort the numbers\n    printf(\"\\nSorting numbers...\\n\");\n    quick_sort(list);\n    \n    // Write sorted numbers to file\n    printf(\"Writing sorted numbers to file...\\n\");\n    if (write_numbers_to_file(output_file, list)) {\n        printf(\"Sorted numbers written to %s\\n\", output_file);\n    } else {\n        printf(\"Error writing sorted numbers to file\\n\");\n    }\n    \n    list_destroy(list);\n}",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 89,
+            "name": "test_file_operations",
+            "signature": "void(void)"
+        },
+        {
+            "code": "int main(void) {\n    // Create a new list\n    List* list = list_create();\n    if (!list) {\n        printf(\"Error creating list\\n\");\n        return 1;\n    }\n    \n    // Test list operations\n    test_list_operations(list);\n    \n    // Test sorting algorithms\n    test_sorting_algorithms(list);\n    \n    // Clean up the list\n    list_destroy(list);\n    \n    // Test file operations\n    test_file_operations();\n    \n    return 0;\n} ",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 125,
+            "name": "main",
+            "signature": "int(void)"
+        },
+        {
+            "code": "void swap_nodes(Node* a, Node* b) {\n    if (!a || !b) return;\n    int temp = a->data;\n    a->data = b->data;\n    b->data = temp;\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 4,
+            "name": "swap_nodes",
+            "signature": "void(Node*,Node*)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include \"sort.h\"\n\nvoid swap_nodes(Node* a, Node* b) {\n    if (!a || !b) return;\n    int temp = a->data;\n    a->data = b->data;\n    b->data = temp;\n}\n\nint is_sorted(List* list) {\n    if (!list || !list->head) return 1;\n    \n    Node* current = list->head;\n    while (current->next) {\n        if (current->data > current->next->data) {\n            return 0;\n        }\n        current = current->next;\n    }\n    return 1;\n}\n\nvoid bubble_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    int swapped;\n    Node* current;\n    Node* last = NULL;\n    \n    do {\n        swapped = 0;\n        current = list->head;\n        \n        while (current->next != last) {\n            if (current->data > current->next->data) {\n                swap_nodes(current, current->next);\n                swapped = 1;\n            }\n            current = current->next;\n        }\n        last = current;\n    } while (swapped);\n}\n\nvoid insertion_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    Node* current = list->head->next;\n    while (current) {\n        Node* key = current;\n        Node* prev = list->head;\n        \n        while (prev != current && prev->data > key->data) {\n            prev->next->data = prev->data;\n            prev = prev->next;\n        }\n        prev->data = key->data;\n        current = current->next;\n    }\n}\n\nvoid selection_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    Node* current = list->head;\n    while (current) {\n        Node* min = current;\n        Node* temp = current->next;\n        \n        while (temp) {\n            if (temp->data < min->data) {\n                min = temp;\n            }\n            temp = temp->next;\n        }\n        \n        if (min != current) {\n            swap_nodes(current, min);\n        }\n        current = current->next;\n    }\n}\n\n// Helper function for quick sort\nNode* partition(Node* low, Node* high) {\n    int pivot = high->data;\n    Node* i = low;\n    \n    for (Node* j = low; j != high; j = j->next) {\n        if (j->data <= pivot) {\n            swap_nodes(i, j);\n            i = i->next;\n        }\n    }\n    swap_nodes(i, high);\n    return i;\n}\n\n// Helper function for quick sort\nvoid quick_sort_recursive(Node* low, Node* high) {\n    if (low && high && low != high && low->next != high) {\n        Node* pivot = partition(low, high);\n        quick_sort_recursive(low, pivot);\n        quick_sort_recursive(pivot->next, high);\n    }\n}\n\nvoid quick_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    // Find the last node\n    Node* last = list->head;\n    while (last->next) {\n        last = last->next;\n    }\n    \n    quick_sort_recursive(list->head, last);\n} ",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "int is_sorted(List* list) {\n    if (!list || !list->head) return 1;\n    \n    Node* current = list->head;\n    while (current->next) {\n        if (current->data > current->next->data) {\n            return 0;\n        }\n        current = current->next;\n    }\n    return 1;\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 11,
+            "name": "is_sorted",
+            "signature": "int(List*)"
+        },
+        {
+            "code": "void bubble_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    int swapped;\n    Node* current;\n    Node* last = NULL;\n    \n    do {\n        swapped = 0;\n        current = list->head;\n        \n        while (current->next != last) {\n            if (current->data > current->next->data) {\n                swap_nodes(current, current->next);\n                swapped = 1;\n            }\n            current = current->next;\n        }\n        last = current;\n    } while (swapped);\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 24,
+            "name": "bubble_sort",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "void insertion_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    Node* current = list->head->next;\n    while (current) {\n        Node* key = current;\n        Node* prev = list->head;\n        \n        while (prev != current && prev->data > key->data) {\n            prev->next->data = prev->data;\n            prev = prev->next;\n        }\n        prev->data = key->data;\n        current = current->next;\n    }\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 46,
+            "name": "insertion_sort",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "void selection_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    Node* current = list->head;\n    while (current) {\n        Node* min = current;\n        Node* temp = current->next;\n        \n        while (temp) {\n            if (temp->data < min->data) {\n                min = temp;\n            }\n            temp = temp->next;\n        }\n        \n        if (min != current) {\n            swap_nodes(current, min);\n        }\n        current = current->next;\n    }\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 63,
+            "name": "selection_sort",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "Node* partition(Node* low, Node* high) {\n    int pivot = high->data;\n    Node* i = low;\n    \n    for (Node* j = low; j != high; j = j->next) {\n        if (j->data <= pivot) {\n            swap_nodes(i, j);\n            i = i->next;\n        }\n    }\n    swap_nodes(i, high);\n    return i;\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 86,
+            "name": "partition",
+            "signature": "Node(Node*,Node*)"
+        },
+        {
+            "code": "void quick_sort_recursive(Node* low, Node* high) {\n    if (low && high && low != high && low->next != high) {\n        Node* pivot = partition(low, high);\n        quick_sort_recursive(low, pivot);\n        quick_sort_recursive(pivot->next, high);\n    }\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 101,
+            "name": "quick_sort_recursive",
+            "signature": "void(Node*,Node*)"
+        },
+        {
+            "code": "void quick_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    // Find the last node\n    Node* last = list->head;\n    while (last->next) {\n        last = last->next;\n    }\n    \n    quick_sort_recursive(list->head, last);\n} ",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 109,
+            "name": "quick_sort",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "#ifndef FILE_IO_H\n#define FILE_IO_H\n\n#include \"list.h\"\n\n// Function declarations for file operations\nList* read_numbers_from_file(const char* filename);\nint write_numbers_to_file(const char* filename, List* list);\nvoid generate_random_numbers(const char* filename, int count, int min, int max);\n\n#endif // FILE_IO_H ",
+            "file": "test_code/complex/file_io.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef LIST_H\n#define LIST_H\n\n#include <stddef.h>\n\n// Node structure for the linked list\ntypedef struct Node {\n    int data;\n    struct Node* next;\n} Node;\n\n// List structure\ntypedef struct {\n    Node* head;\n    size_t size;\n} List;\n\n// Function declarations\nList* list_create(void);\nvoid list_destroy(List* list);\nvoid list_append(List* list, int data);\nvoid list_prepend(List* list, int data);\nint list_remove(List* list, int data);\nint list_contains(List* list, int data);\nvoid list_print(List* list);\nsize_t list_size(List* list);\nNode* list_get_node(List* list, size_t index);\n\n#endif // LIST_H ",
+            "file": "test_code/complex/list.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef SORT_H\n#define SORT_H\n\n#include \"list.h\"\n\n// Function declarations for different sorting algorithms\nvoid bubble_sort(List* list);\nvoid insertion_sort(List* list);\nvoid selection_sort(List* list);\nvoid quick_sort(List* list);\n\n// Helper functions\nvoid swap_nodes(Node* a, Node* b);\nint is_sorted(List* list);\n\n#endif // SORT_H ",
+            "file": "test_code/complex/sort.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        }
+    ],
+    "functions": [
+        {
+            "code": "List* read_numbers_from_file(const char* filename) {\n    FILE* file = fopen(filename, \"r\");\n    if (!file) {\n        printf(\"Error opening file %s for reading\\n\", filename);\n        return NULL;\n    }\n    \n    List* list = list_create();\n    if (!list) {\n        fclose(file);\n        return NULL;\n    }\n    \n    int number;\n    while (fscanf(file, \"%d\", &number) == 1) {\n        list_append(list, number);\n    }\n    \n    fclose(file);\n    return list;\n}",
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 6,
+            "name": "read_numbers_from_file",
+            "signature": "List(char*)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include <stdlib.h>\n#include <time.h>\n#include \"file_io.h\"\n\nList* read_numbers_from_file(const char* filename) {\n    FILE* file = fopen(filename, \"r\");\n    if (!file) {\n        printf(\"Error opening file %s for reading\\n\", filename);\n        return NULL;\n    }\n    \n    List* list = list_create();\n    if (!list) {\n        fclose(file);\n        return NULL;\n    }\n    \n    int number;\n    while (fscanf(file, \"%d\", &number) == 1) {\n        list_append(list, number);\n    }\n    \n    fclose(file);\n    return list;\n}\n\nint write_numbers_to_file(const char* filename, List* list) {\n    if (!list) return 0;\n    \n    FILE* file = fopen(filename, \"w\");\n    if (!file) {\n        printf(\"Error opening file %s for writing\\n\", filename);\n        return 0;\n    }\n    \n    Node* current = list->head;\n    while (current) {\n        fprintf(file, \"%d\\n\", current->data);\n        current = current->next;\n    }\n    \n    fclose(file);\n    return 1;\n}\n\nvoid generate_random_numbers(const char* filename, int count, int min, int max) {\n    FILE* file = fopen(filename, \"w\");\n    if (!file) {\n        printf(\"Error opening file %s for writing\\n\", filename);\n        return;\n    }\n    \n    srand(time(NULL));\n    for (int i = 0; i < count; i++) {\n        int number = min + rand() % (max - min + 1);\n        fprintf(file, \"%d\\n\", number);\n    }\n    \n    fclose(file);\n} ",
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "int write_numbers_to_file(const char* filename, List* list) {\n    if (!list) return 0;\n    \n    FILE* file = fopen(filename, \"w\");\n    if (!file) {\n        printf(\"Error opening file %s for writing\\n\", filename);\n        return 0;\n    }\n    \n    Node* current = list->head;\n    while (current) {\n        fprintf(file, \"%d\\n\", current->data);\n        current = current->next;\n    }\n    \n    fclose(file);\n    return 1;\n}",
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 28,
+            "name": "write_numbers_to_file",
+            "signature": "int(char*,List*)"
+        },
+        {
+            "code": "void generate_random_numbers(const char* filename, int count, int min, int max) {\n    FILE* file = fopen(filename, \"w\");\n    if (!file) {\n        printf(\"Error opening file %s for writing\\n\", filename);\n        return;\n    }\n    \n    srand(time(NULL));\n    for (int i = 0; i < count; i++) {\n        int number = min + rand() % (max - min + 1);\n        fprintf(file, \"%d\\n\", number);\n    }\n    \n    fclose(file);\n} ",
+            "file": "test_code/complex/file_io.c",
+            "lineNumber": 47,
+            "name": "generate_random_numbers",
+            "signature": "void(char*,int,int,int)"
+        },
+        {
+            "code": "List* list_create(void) {\n    List* list = (List*)malloc(sizeof(List));\n    if (list) {\n        list->head = NULL;\n        list->size = 0;\n    }\n    return list;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 5,
+            "name": "list_create",
+            "signature": "List(void)"
+        },
+        {
+            "code": "#include <stdlib.h>\n#include <stdio.h>\n#include \"list.h\"\n\nList* list_create(void) {\n    List* list = (List*)malloc(sizeof(List));\n    if (list) {\n        list->head = NULL;\n        list->size = 0;\n    }\n    return list;\n}\n\nvoid list_destroy(List* list) {\n    if (!list) return;\n    \n    Node* current = list->head;\n    while (current) {\n        Node* next = current->next;\n        free(current);\n        current = next;\n    }\n    free(list);\n}\n\nvoid list_append(List* list, int data) {\n    if (!list) return;\n    \n    Node* new_node = (Node*)malloc(sizeof(Node));\n    if (!new_node) return;\n    \n    new_node->data = data;\n    new_node->next = NULL;\n    \n    if (!list->head) {\n        list->head = new_node;\n    } else {\n        Node* current = list->head;\n        while (current->next) {\n            current = current->next;\n        }\n        current->next = new_node;\n    }\n    list->size++;\n}\n\nvoid list_prepend(List* list, int data) {\n    if (!list) return;\n    \n    Node* new_node = (Node*)malloc(sizeof(Node));\n    if (!new_node) return;\n    \n    new_node->data = data;\n    new_node->next = list->head;\n    list->head = new_node;\n    list->size++;\n}\n\nint list_remove(List* list, int data) {\n    if (!list || !list->head) return 0;\n    \n    Node* current = list->head;\n    Node* prev = NULL;\n    \n    while (current) {\n        if (current->data == data) {\n            if (prev) {\n                prev->next = current->next;\n            } else {\n                list->head = current->next;\n            }\n            free(current);\n            list->size--;\n            return 1;\n        }\n        prev = current;\n        current = current->next;\n    }\n    return 0;\n}\n\nint list_contains(List* list, int data) {\n    if (!list) return 0;\n    \n    Node* current = list->head;\n    while (current) {\n        if (current->data == data) return 1;\n        current = current->next;\n    }\n    return 0;\n}\n\nvoid list_print(List* list) {\n    if (!list) return;\n    \n    printf(\"List contents: \");\n    Node* current = list->head;\n    while (current) {\n        printf(\"%d \", current->data);\n        current = current->next;\n    }\n    printf(\"\\n\");\n}\n\nsize_t list_size(List* list) {\n    return list ? list->size : 0;\n}\n\nNode* list_get_node(List* list, size_t index) {\n    if (!list || index >= list->size) return NULL;\n    \n    Node* current = list->head;\n    for (size_t i = 0; i < index; i++) {\n        current = current->next;\n    }\n    return current;\n} ",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void list_destroy(List* list) {\n    if (!list) return;\n    \n    Node* current = list->head;\n    while (current) {\n        Node* next = current->next;\n        free(current);\n        current = next;\n    }\n    free(list);\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 14,
+            "name": "list_destroy",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "void list_append(List* list, int data) {\n    if (!list) return;\n    \n    Node* new_node = (Node*)malloc(sizeof(Node));\n    if (!new_node) return;\n    \n    new_node->data = data;\n    new_node->next = NULL;\n    \n    if (!list->head) {\n        list->head = new_node;\n    } else {\n        Node* current = list->head;\n        while (current->next) {\n            current = current->next;\n        }\n        current->next = new_node;\n    }\n    list->size++;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 26,
+            "name": "list_append",
+            "signature": "void(List*,int)"
+        },
+        {
+            "code": "void list_prepend(List* list, int data) {\n    if (!list) return;\n    \n    Node* new_node = (Node*)malloc(sizeof(Node));\n    if (!new_node) return;\n    \n    new_node->data = data;\n    new_node->next = list->head;\n    list->head = new_node;\n    list->size++;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 47,
+            "name": "list_prepend",
+            "signature": "void(List*,int)"
+        },
+        {
+            "code": "int list_remove(List* list, int data) {\n    if (!list || !list->head) return 0;\n    \n    Node* current = list->head;\n    Node* prev = NULL;\n    \n    while (current) {\n        if (current->data == data) {\n            if (prev) {\n                prev->next = current->next;\n            } else {\n                list->head = current->next;\n            }\n            free(current);\n            list->size--;\n            return 1;\n        }\n        prev = current;\n        current = current->next;\n    }\n    return 0;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 59,
+            "name": "list_remove",
+            "signature": "int(List*,int)"
+        },
+        {
+            "code": "int list_contains(List* list, int data) {\n    if (!list) return 0;\n    \n    Node* current = list->head;\n    while (current) {\n        if (current->data == data) return 1;\n        current = current->next;\n    }\n    return 0;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 82,
+            "name": "list_contains",
+            "signature": "int(List*,int)"
+        },
+        {
+            "code": "void list_print(List* list) {\n    if (!list) return;\n    \n    printf(\"List contents: \");\n    Node* current = list->head;\n    while (current) {\n        printf(\"%d \", current->data);\n        current = current->next;\n    }\n    printf(\"\\n\");\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 93,
+            "name": "list_print",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "size_t list_size(List* list) {\n    return list ? list->size : 0;\n}",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 105,
+            "name": "list_size",
+            "signature": "size_t(List*)"
+        },
+        {
+            "code": "Node* list_get_node(List* list, size_t index) {\n    if (!list || index >= list->size) return NULL;\n    \n    Node* current = list->head;\n    for (size_t i = 0; i < index; i++) {\n        current = current->next;\n    }\n    return current;\n} ",
+            "file": "test_code/complex/list.c",
+            "lineNumber": 109,
+            "name": "list_get_node",
+            "signature": "Node(List*,size_t)"
+        },
+        {
+            "code": "void test_list_operations(List* list) {\n    printf(\"\\nTesting list operations:\\n\");\n    printf(\"Initial list size: %zu\\n\", list_size(list));\n    \n    // Test append\n    list_append(list, 42);\n    list_append(list, 17);\n    list_append(list, 99);\n    printf(\"After appending 3 numbers:\\n\");\n    list_print(list);\n    \n    // Test prepend\n    list_prepend(list, 5);\n    printf(\"After prepending 5:\\n\");\n    list_print(list);\n    \n    // Test contains\n    printf(\"List contains 17: %d\\n\", list_contains(list, 17));\n    printf(\"List contains 100: %d\\n\", list_contains(list, 100));\n    \n    // Test remove\n    list_remove(list, 17);\n    printf(\"After removing 17:\\n\");\n    list_print(list);\n}",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 7,
+            "name": "test_list_operations",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include <stdlib.h>\n#include \"list.h\"\n#include \"sort.h\"\n#include \"file_io.h\"\n\nvoid test_list_operations(List* list) {\n    printf(\"\\nTesting list operations:\\n\");\n    printf(\"Initial list size: %zu\\n\", list_size(list));\n    \n    // Test append\n    list_append(list, 42);\n    list_append(list, 17);\n    list_append(list, 99);\n    printf(\"After appending 3 numbers:\\n\");\n    list_print(list);\n    \n    // Test prepend\n    list_prepend(list, 5);\n    printf(\"After prepending 5:\\n\");\n    list_print(list);\n    \n    // Test contains\n    printf(\"List contains 17: %d\\n\", list_contains(list, 17));\n    printf(\"List contains 100: %d\\n\", list_contains(list, 100));\n    \n    // Test remove\n    list_remove(list, 17);\n    printf(\"After removing 17:\\n\");\n    list_print(list);\n}\n\nvoid test_sorting_algorithms(List* list) {\n    printf(\"\\nTesting sorting algorithms:\\n\");\n    \n    // Test bubble sort\n    printf(\"Before bubble sort:\\n\");\n    list_print(list);\n    bubble_sort(list);\n    printf(\"After bubble sort:\\n\");\n    list_print(list);\n    \n    // Shuffle the list\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 99);\n    list_append(list, 5);\n    list_append(list, 42);\n    \n    // Test insertion sort\n    printf(\"\\nBefore insertion sort:\\n\");\n    list_print(list);\n    insertion_sort(list);\n    printf(\"After insertion sort:\\n\");\n    list_print(list);\n    \n    // Shuffle again\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 42);\n    list_append(list, 99);\n    list_append(list, 5);\n    \n    // Test selection sort\n    printf(\"\\nBefore selection sort:\\n\");\n    list_print(list);\n    selection_sort(list);\n    printf(\"After selection sort:\\n\");\n    list_print(list);\n    \n    // Shuffle one more time\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 99);\n    list_append(list, 5);\n    list_append(list, 42);\n    \n    // Test quick sort\n    printf(\"\\nBefore quick sort:\\n\");\n    list_print(list);\n    quick_sort(list);\n    printf(\"After quick sort:\\n\");\n    list_print(list);\n}\n\nvoid test_file_operations(void) {\n    printf(\"\\nTesting file operations:\\n\");\n    \n    // Generate random numbers\n    const char* input_file = \"numbers.txt\";\n    const char* output_file = \"sorted_numbers.txt\";\n    \n    printf(\"Generating random numbers...\\n\");\n    generate_random_numbers(input_file, 10, 1, 100);\n    \n    // Read numbers from file\n    printf(\"Reading numbers from file...\\n\");\n    List* list = read_numbers_from_file(input_file);\n    if (!list) {\n        printf(\"Error reading numbers from file\\n\");\n        return;\n    }\n    \n    printf(\"Numbers read from file:\\n\");\n    list_print(list);\n    \n    // Sort the numbers\n    printf(\"\\nSorting numbers...\\n\");\n    quick_sort(list);\n    \n    // Write sorted numbers to file\n    printf(\"Writing sorted numbers to file...\\n\");\n    if (write_numbers_to_file(output_file, list)) {\n        printf(\"Sorted numbers written to %s\\n\", output_file);\n    } else {\n        printf(\"Error writing sorted numbers to file\\n\");\n    }\n    \n    list_destroy(list);\n}\n\nint main(void) {\n    // Create a new list\n    List* list = list_create();\n    if (!list) {\n        printf(\"Error creating list\\n\");\n        return 1;\n    }\n    \n    // Test list operations\n    test_list_operations(list);\n    \n    // Test sorting algorithms\n    test_sorting_algorithms(list);\n    \n    // Clean up the list\n    list_destroy(list);\n    \n    // Test file operations\n    test_file_operations();\n    \n    return 0;\n} ",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void test_sorting_algorithms(List* list) {\n    printf(\"\\nTesting sorting algorithms:\\n\");\n    \n    // Test bubble sort\n    printf(\"Before bubble sort:\\n\");\n    list_print(list);\n    bubble_sort(list);\n    printf(\"After bubble sort:\\n\");\n    list_print(list);\n    \n    // Shuffle the list\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 99);\n    list_append(list, 5);\n    list_append(list, 42);\n    \n    // Test insertion sort\n    printf(\"\\nBefore insertion sort:\\n\");\n    list_print(list);\n    insertion_sort(list);\n    printf(\"After insertion sort:\\n\");\n    list_print(list);\n    \n    // Shuffle again\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 42);\n    list_append(list, 99);\n    list_append(list, 5);\n    \n    // Test selection sort\n    printf(\"\\nBefore selection sort:\\n\");\n    list_print(list);\n    selection_sort(list);\n    printf(\"After selection sort:\\n\");\n    list_print(list);\n    \n    // Shuffle one more time\n    list_remove(list, 5);\n    list_remove(list, 42);\n    list_remove(list, 99);\n    list_append(list, 99);\n    list_append(list, 5);\n    list_append(list, 42);\n    \n    // Test quick sort\n    printf(\"\\nBefore quick sort:\\n\");\n    list_print(list);\n    quick_sort(list);\n    printf(\"After quick sort:\\n\");\n    list_print(list);\n}",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 33,
+            "name": "test_sorting_algorithms",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "void test_file_operations(void) {\n    printf(\"\\nTesting file operations:\\n\");\n    \n    // Generate random numbers\n    const char* input_file = \"numbers.txt\";\n    const char* output_file = \"sorted_numbers.txt\";\n    \n    printf(\"Generating random numbers...\\n\");\n    generate_random_numbers(input_file, 10, 1, 100);\n    \n    // Read numbers from file\n    printf(\"Reading numbers from file...\\n\");\n    List* list = read_numbers_from_file(input_file);\n    if (!list) {\n        printf(\"Error reading numbers from file\\n\");\n        return;\n    }\n    \n    printf(\"Numbers read from file:\\n\");\n    list_print(list);\n    \n    // Sort the numbers\n    printf(\"\\nSorting numbers...\\n\");\n    quick_sort(list);\n    \n    // Write sorted numbers to file\n    printf(\"Writing sorted numbers to file...\\n\");\n    if (write_numbers_to_file(output_file, list)) {\n        printf(\"Sorted numbers written to %s\\n\", output_file);\n    } else {\n        printf(\"Error writing sorted numbers to file\\n\");\n    }\n    \n    list_destroy(list);\n}",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 89,
+            "name": "test_file_operations",
+            "signature": "void(void)"
+        },
+        {
+            "code": "int main(void) {\n    // Create a new list\n    List* list = list_create();\n    if (!list) {\n        printf(\"Error creating list\\n\");\n        return 1;\n    }\n    \n    // Test list operations\n    test_list_operations(list);\n    \n    // Test sorting algorithms\n    test_sorting_algorithms(list);\n    \n    // Clean up the list\n    list_destroy(list);\n    \n    // Test file operations\n    test_file_operations();\n    \n    return 0;\n} ",
+            "file": "test_code/complex/main.c",
+            "lineNumber": 125,
+            "name": "main",
+            "signature": "int(void)"
+        },
+        {
+            "code": "void swap_nodes(Node* a, Node* b) {\n    if (!a || !b) return;\n    int temp = a->data;\n    a->data = b->data;\n    b->data = temp;\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 4,
+            "name": "swap_nodes",
+            "signature": "void(Node*,Node*)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include \"sort.h\"\n\nvoid swap_nodes(Node* a, Node* b) {\n    if (!a || !b) return;\n    int temp = a->data;\n    a->data = b->data;\n    b->data = temp;\n}\n\nint is_sorted(List* list) {\n    if (!list || !list->head) return 1;\n    \n    Node* current = list->head;\n    while (current->next) {\n        if (current->data > current->next->data) {\n            return 0;\n        }\n        current = current->next;\n    }\n    return 1;\n}\n\nvoid bubble_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    int swapped;\n    Node* current;\n    Node* last = NULL;\n    \n    do {\n        swapped = 0;\n        current = list->head;\n        \n        while (current->next != last) {\n            if (current->data > current->next->data) {\n                swap_nodes(current, current->next);\n                swapped = 1;\n            }\n            current = current->next;\n        }\n        last = current;\n    } while (swapped);\n}\n\nvoid insertion_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    Node* current = list->head->next;\n    while (current) {\n        Node* key = current;\n        Node* prev = list->head;\n        \n        while (prev != current && prev->data > key->data) {\n            prev->next->data = prev->data;\n            prev = prev->next;\n        }\n        prev->data = key->data;\n        current = current->next;\n    }\n}\n\nvoid selection_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    Node* current = list->head;\n    while (current) {\n        Node* min = current;\n        Node* temp = current->next;\n        \n        while (temp) {\n            if (temp->data < min->data) {\n                min = temp;\n            }\n            temp = temp->next;\n        }\n        \n        if (min != current) {\n            swap_nodes(current, min);\n        }\n        current = current->next;\n    }\n}\n\n// Helper function for quick sort\nNode* partition(Node* low, Node* high) {\n    int pivot = high->data;\n    Node* i = low;\n    \n    for (Node* j = low; j != high; j = j->next) {\n        if (j->data <= pivot) {\n            swap_nodes(i, j);\n            i = i->next;\n        }\n    }\n    swap_nodes(i, high);\n    return i;\n}\n\n// Helper function for quick sort\nvoid quick_sort_recursive(Node* low, Node* high) {\n    if (low && high && low != high && low->next != high) {\n        Node* pivot = partition(low, high);\n        quick_sort_recursive(low, pivot);\n        quick_sort_recursive(pivot->next, high);\n    }\n}\n\nvoid quick_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    // Find the last node\n    Node* last = list->head;\n    while (last->next) {\n        last = last->next;\n    }\n    \n    quick_sort_recursive(list->head, last);\n} ",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "int is_sorted(List* list) {\n    if (!list || !list->head) return 1;\n    \n    Node* current = list->head;\n    while (current->next) {\n        if (current->data > current->next->data) {\n            return 0;\n        }\n        current = current->next;\n    }\n    return 1;\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 11,
+            "name": "is_sorted",
+            "signature": "int(List*)"
+        },
+        {
+            "code": "void bubble_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    int swapped;\n    Node* current;\n    Node* last = NULL;\n    \n    do {\n        swapped = 0;\n        current = list->head;\n        \n        while (current->next != last) {\n            if (current->data > current->next->data) {\n                swap_nodes(current, current->next);\n                swapped = 1;\n            }\n            current = current->next;\n        }\n        last = current;\n    } while (swapped);\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 24,
+            "name": "bubble_sort",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "void insertion_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    Node* current = list->head->next;\n    while (current) {\n        Node* key = current;\n        Node* prev = list->head;\n        \n        while (prev != current && prev->data > key->data) {\n            prev->next->data = prev->data;\n            prev = prev->next;\n        }\n        prev->data = key->data;\n        current = current->next;\n    }\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 46,
+            "name": "insertion_sort",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "void selection_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    Node* current = list->head;\n    while (current) {\n        Node* min = current;\n        Node* temp = current->next;\n        \n        while (temp) {\n            if (temp->data < min->data) {\n                min = temp;\n            }\n            temp = temp->next;\n        }\n        \n        if (min != current) {\n            swap_nodes(current, min);\n        }\n        current = current->next;\n    }\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 63,
+            "name": "selection_sort",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "Node* partition(Node* low, Node* high) {\n    int pivot = high->data;\n    Node* i = low;\n    \n    for (Node* j = low; j != high; j = j->next) {\n        if (j->data <= pivot) {\n            swap_nodes(i, j);\n            i = i->next;\n        }\n    }\n    swap_nodes(i, high);\n    return i;\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 86,
+            "name": "partition",
+            "signature": "Node(Node*,Node*)"
+        },
+        {
+            "code": "void quick_sort_recursive(Node* low, Node* high) {\n    if (low && high && low != high && low->next != high) {\n        Node* pivot = partition(low, high);\n        quick_sort_recursive(low, pivot);\n        quick_sort_recursive(pivot->next, high);\n    }\n}",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 101,
+            "name": "quick_sort_recursive",
+            "signature": "void(Node*,Node*)"
+        },
+        {
+            "code": "void quick_sort(List* list) {\n    if (!list || !list->head) return;\n    \n    // Find the last node\n    Node* last = list->head;\n    while (last->next) {\n        last = last->next;\n    }\n    \n    quick_sort_recursive(list->head, last);\n} ",
+            "file": "test_code/complex/sort.c",
+            "lineNumber": 109,
+            "name": "quick_sort",
+            "signature": "void(List*)"
+        },
+        {
+            "code": "#ifndef FILE_IO_H\n#define FILE_IO_H\n\n#include \"list.h\"\n\n// Function declarations for file operations\nList* read_numbers_from_file(const char* filename);\nint write_numbers_to_file(const char* filename, List* list);\nvoid generate_random_numbers(const char* filename, int count, int min, int max);\n\n#endif // FILE_IO_H ",
+            "file": "test_code/complex/file_io.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef LIST_H\n#define LIST_H\n\n#include <stddef.h>\n\n// Node structure for the linked list\ntypedef struct Node {\n    int data;\n    struct Node* next;\n} Node;\n\n// List structure\ntypedef struct {\n    Node* head;\n    size_t size;\n} List;\n\n// Function declarations\nList* list_create(void);\nvoid list_destroy(List* list);\nvoid list_append(List* list, int data);\nvoid list_prepend(List* list, int data);\nint list_remove(List* list, int data);\nint list_contains(List* list, int data);\nvoid list_print(List* list);\nsize_t list_size(List* list);\nNode* list_get_node(List* list, size_t index);\n\n#endif // LIST_H ",
+            "file": "test_code/complex/list.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef SORT_H\n#define SORT_H\n\n#include \"list.h\"\n\n// Function declarations for different sorting algorithms\nvoid bubble_sort(List* list);\nvoid insertion_sort(List* list);\nvoid selection_sort(List* list);\nvoid quick_sort(List* list);\n\n// Helper functions\nvoid swap_nodes(Node* a, Node* b);\nint is_sorted(List* list);\n\n#endif // SORT_H ",
+            "file": "test_code/complex/sort.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "<global>",
+            "file": "<includes>",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.assignment",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "fopen",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.logicalNot",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "printf",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "fclose",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.equals",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "fscanf",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.addressOf",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.indirectFieldAccess",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "fprintf",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "srand",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "time",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.lessThan",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.postIncrement",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.addition",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.modulo",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "rand",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.subtraction",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.cast",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "malloc",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.sizeOf",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "free",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.logicalOr",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.postDecrement",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.conditional",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.greaterEqualsThan",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.greaterThan",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.notEquals",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.logicalAnd",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.lessEqualsThan",
+            "signature": ""
+        }
+    ]
+}

@@ -1,0 +1,376 @@
+{
+    "call_graph": [
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 6,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 7,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 10,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 10,
+            "method": "main",
+            "name": "add"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 11,
+            "method": "main",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 11,
+            "method": "main",
+            "name": "subtract"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 14,
+            "method": "main",
+            "name": "print_result"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 15,
+            "method": "main",
+            "name": "print_result"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 18,
+            "method": "main",
+            "name": "process_numbers"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 6,
+            "method": "add",
+            "name": "<operator>.addition"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 10,
+            "method": "subtract",
+            "name": "<operator>.subtraction"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 14,
+            "method": "process_numbers",
+            "name": "<operator>.assignment"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 14,
+            "method": "process_numbers",
+            "name": "add"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 15,
+            "method": "process_numbers",
+            "name": "print_result"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 18,
+            "method": "process_numbers",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 5,
+            "method": "print_result",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 9,
+            "method": "log_operation",
+            "name": "printf"
+        }
+    ],
+    "call_graph_tree": [
+        "test_code/simple/math_ops.c:log_operation",
+        "  ?:printf",
+        "test_code/simple/main.c:main",
+        "  test_code/simple/main.c:add",
+        "  test_code/simple/main.c:print_result",
+        "  test_code/simple/main.c:process_numbers",
+        "  test_code/simple/main.c:subtract",
+        "test_code/simple/main.c:print_result",
+        "  ?:printf",
+        "test_code/simple/main.c:process_numbers",
+        "  test_code/simple/main.c:add",
+        "  test_code/simple/math_ops.c:log_operation",
+        "  test_code/simple/main.c:print_result"
+    ],
+    "cleaned_call_graph": [
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 10,
+            "method": "main",
+            "name": "add"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 11,
+            "method": "main",
+            "name": "subtract"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 14,
+            "method": "main",
+            "name": "print_result"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 15,
+            "method": "main",
+            "name": "print_result"
+        },
+        {
+            "file": "test_code/simple/main.c",
+            "lineNumber": 18,
+            "method": "main",
+            "name": "process_numbers"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 14,
+            "method": "process_numbers",
+            "name": "add"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 15,
+            "method": "process_numbers",
+            "name": "print_result"
+        },
+        {
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 18,
+            "method": "process_numbers",
+            "name": "log_operation"
+        },
+        {
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 5,
+            "method": "print_result",
+            "name": "printf"
+        },
+        {
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 9,
+            "method": "log_operation",
+            "name": "printf"
+        }
+    ],
+    "cleaned_functions": [
+        {
+            "code": "int main() {\n    int a = 10;\n    int b = 5;\n    \n    // Call functions from different files\n    int sum = add(a, b);\n    int diff = subtract(a, b);\n    \n    // Use utility function\n    print_result(\"Sum\", sum);\n    print_result(\"Difference\", diff);\n    \n    // Call a function that calls another function\n    process_numbers(a, b);\n    \n    return 0;\n} ",
+            "file": "test_code/simple/main.c",
+            "lineNumber": 5,
+            "name": "main",
+            "signature": "int()"
+        },
+        {
+            "code": "#include <stdio.h>\n#include \"utils.h\"\n#include \"math_ops.h\"\n\nint main() {\n    int a = 10;\n    int b = 5;\n    \n    // Call functions from different files\n    int sum = add(a, b);\n    int diff = subtract(a, b);\n    \n    // Use utility function\n    print_result(\"Sum\", sum);\n    print_result(\"Difference\", diff);\n    \n    // Call a function that calls another function\n    process_numbers(a, b);\n    \n    return 0;\n} ",
+            "file": "test_code/simple/main.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "int add(int a, int b) {\n    return a + b;\n}",
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 5,
+            "name": "add",
+            "signature": "int(int,int)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include \"math_ops.h\"\n#include \"utils.h\"\n\nint add(int a, int b) {\n    return a + b;\n}\n\nint subtract(int a, int b) {\n    return a - b;\n}\n\nvoid process_numbers(int a, int b) {\n    int result = add(a, b);\n    print_result(\"Processed\", result);\n    \n    // Call another function from utils\n    log_operation(\"Processing complete\");\n} ",
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "int subtract(int a, int b) {\n    return a - b;\n}",
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 9,
+            "name": "subtract",
+            "signature": "int(int,int)"
+        },
+        {
+            "code": "void process_numbers(int a, int b) {\n    int result = add(a, b);\n    print_result(\"Processed\", result);\n    \n    // Call another function from utils\n    log_operation(\"Processing complete\");\n} ",
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 13,
+            "name": "process_numbers",
+            "signature": "void(int,int)"
+        },
+        {
+            "code": "void print_result(const char* label, int value) {\n    printf(\"%s: %d\\n\", label, value);\n}",
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 4,
+            "name": "print_result",
+            "signature": "void(char*,int)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include \"utils.h\"\n\nvoid print_result(const char* label, int value) {\n    printf(\"%s: %d\\n\", label, value);\n}\n\nvoid log_operation(const char* message) {\n    printf(\"LOG: %s\\n\", message);\n} ",
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void log_operation(const char* message) {\n    printf(\"LOG: %s\\n\", message);\n} ",
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 8,
+            "name": "log_operation",
+            "signature": "void(char*)"
+        },
+        {
+            "code": "#ifndef MATH_OPS_H\n#define MATH_OPS_H\n\nint add(int a, int b);\nint subtract(int a, int b);\nvoid process_numbers(int a, int b);\n\n#endif ",
+            "file": "test_code/simple/math_ops.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef UTILS_H\n#define UTILS_H\n\nvoid print_result(const char* label, int value);\nvoid log_operation(const char* message);\n\n#endif ",
+            "file": "test_code/simple/utils.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        }
+    ],
+    "functions": [
+        {
+            "code": "int main() {\n    int a = 10;\n    int b = 5;\n    \n    // Call functions from different files\n    int sum = add(a, b);\n    int diff = subtract(a, b);\n    \n    // Use utility function\n    print_result(\"Sum\", sum);\n    print_result(\"Difference\", diff);\n    \n    // Call a function that calls another function\n    process_numbers(a, b);\n    \n    return 0;\n} ",
+            "file": "test_code/simple/main.c",
+            "lineNumber": 5,
+            "name": "main",
+            "signature": "int()"
+        },
+        {
+            "code": "#include <stdio.h>\n#include \"utils.h\"\n#include \"math_ops.h\"\n\nint main() {\n    int a = 10;\n    int b = 5;\n    \n    // Call functions from different files\n    int sum = add(a, b);\n    int diff = subtract(a, b);\n    \n    // Use utility function\n    print_result(\"Sum\", sum);\n    print_result(\"Difference\", diff);\n    \n    // Call a function that calls another function\n    process_numbers(a, b);\n    \n    return 0;\n} ",
+            "file": "test_code/simple/main.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "int add(int a, int b) {\n    return a + b;\n}",
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 5,
+            "name": "add",
+            "signature": "int(int,int)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include \"math_ops.h\"\n#include \"utils.h\"\n\nint add(int a, int b) {\n    return a + b;\n}\n\nint subtract(int a, int b) {\n    return a - b;\n}\n\nvoid process_numbers(int a, int b) {\n    int result = add(a, b);\n    print_result(\"Processed\", result);\n    \n    // Call another function from utils\n    log_operation(\"Processing complete\");\n} ",
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "int subtract(int a, int b) {\n    return a - b;\n}",
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 9,
+            "name": "subtract",
+            "signature": "int(int,int)"
+        },
+        {
+            "code": "void process_numbers(int a, int b) {\n    int result = add(a, b);\n    print_result(\"Processed\", result);\n    \n    // Call another function from utils\n    log_operation(\"Processing complete\");\n} ",
+            "file": "test_code/simple/math_ops.c",
+            "lineNumber": 13,
+            "name": "process_numbers",
+            "signature": "void(int,int)"
+        },
+        {
+            "code": "void print_result(const char* label, int value) {\n    printf(\"%s: %d\\n\", label, value);\n}",
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 4,
+            "name": "print_result",
+            "signature": "void(char*,int)"
+        },
+        {
+            "code": "#include <stdio.h>\n#include \"utils.h\"\n\nvoid print_result(const char* label, int value) {\n    printf(\"%s: %d\\n\", label, value);\n}\n\nvoid log_operation(const char* message) {\n    printf(\"LOG: %s\\n\", message);\n} ",
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "void log_operation(const char* message) {\n    printf(\"LOG: %s\\n\", message);\n} ",
+            "file": "test_code/simple/utils.c",
+            "lineNumber": 8,
+            "name": "log_operation",
+            "signature": "void(char*)"
+        },
+        {
+            "code": "#ifndef MATH_OPS_H\n#define MATH_OPS_H\n\nint add(int a, int b);\nint subtract(int a, int b);\nvoid process_numbers(int a, int b);\n\n#endif ",
+            "file": "test_code/simple/math_ops.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "#ifndef UTILS_H\n#define UTILS_H\n\nvoid print_result(const char* label, int value);\nvoid log_operation(const char* message);\n\n#endif ",
+            "file": "test_code/simple/utils.h",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "<global>",
+            "file": "<includes>",
+            "lineNumber": 1,
+            "name": "<global>",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.assignment",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.addition",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "<operator>.subtraction",
+            "signature": ""
+        },
+        {
+            "code": "<empty>",
+            "file": "<unknown>",
+            "lineNumber": -1,
+            "name": "printf",
+            "signature": ""
+        }
+    ]
+}

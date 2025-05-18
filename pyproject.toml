@@ -1,0 +1,53 @@
+[tool.black]
+line-length = 120
+target-version = ["py313"]
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | venv
+  | env
+  | \.mypy_cache
+  | __pycache__
+)/
+'''
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+[lint]
+select = ["E", "F", "B", "I"]
+ignore = ["E501"]  # Line length handled by Black
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "env",
+    ".mypy_cache",
+    "__pycache__",
+]
+
+
+[tool.mypy]
+python_version = "3.13"
+disallow_untyped_defs = true
+check_untyped_defs = true
+ignore_missing_imports = true
+exclude = [
+    ".git/",
+    ".venv/",
+    "venv/",
+    "env/",
+    ".mypy_cache/",
+    "__pycache__/",
+]
+
+[tool.bandit]
+exclude_dirs = [
+    ".git",
+    ".venv",
+    "venv",
+    "env",
+    ".mypy_cache",
+    "__pycache__",
+]
