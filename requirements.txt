@@ -2,7 +2,3 @@ loguru
 click
 flask
 requests
-ruff
-black
-mypy
-bandit
