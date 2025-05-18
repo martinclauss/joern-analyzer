@@ -6,7 +6,7 @@ A Python tool for analyzing C/C++ code using Joern, a powerful code analysis pla
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/martinclauss/joern-analyzer.git
 cd joern_analyzer
 ```
 
